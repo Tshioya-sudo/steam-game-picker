@@ -156,7 +156,8 @@ steam-game-picker/
 
 ## 🚧 今後の実装予定（Phase 2以降）
 
-- [ ] game_metadata.jsonの拡充（1,000本以上）
+- [x] game_metadata.jsonの拡充（100本以上の人気タイトルを収録済み）
+- [ ] game_metadata.jsonのさらなる拡充（1,000本以上）
 - [ ] 実際のアフィリエイト広告統合
 - [ ] Google Analytics連携
 - [ ] ユーザーフィードバック機能
