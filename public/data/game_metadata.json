@@ -1,5 +1,5 @@
 {
-  "description": "ゲームメタデータ（気分フィルター用）。実際の運用では1,000本以上のデータを用意。",
+  "description": "ゲームメタデータ（気分フィルター用）。人気ゲーム100本以上のデータを収録。",
   "games": {
     "570": {
       "appid": 570,
@@ -120,6 +120,498 @@
       "name": "Euro Truck Simulator 2",
       "genres": ["Simulation"],
       "mood": ["relax"]
+    },
+    "72850": {
+      "appid": 72850,
+      "name": "The Elder Scrolls V: Skyrim",
+      "genres": ["RPG", "Adventure"],
+      "mood": ["story", "relax"]
+    },
+    "489830": {
+      "appid": 489830,
+      "name": "The Elder Scrolls Online",
+      "genres": ["MMORPG", "RPG"],
+      "mood": ["story", "party"]
+    },
+    "1203220": {
+      "appid": 1203220,
+      "name": "NARAKA: BLADEPOINT",
+      "genres": ["Action", "Battle Royale"],
+      "mood": ["thrill", "party"]
+    },
+    "1938090": {
+      "appid": 1938090,
+      "name": "Call of Duty: Warzone",
+      "genres": ["FPS", "Battle Royale"],
+      "mood": ["thrill", "party"]
+    },
+    "578080": {
+      "appid": 578080,
+      "name": "PUBG: BATTLEGROUNDS",
+      "genres": ["Battle Royale", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "359550": {
+      "appid": 359550,
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "genres": ["FPS", "Tactical"],
+      "mood": ["think", "party"]
+    },
+    "435150": {
+      "appid": 435150,
+      "name": "Divinity: Original Sin 2",
+      "genres": ["RPG", "Strategy"],
+      "mood": ["story", "think"]
+    },
+    "261550": {
+      "appid": 261550,
+      "name": "Mount & Blade II: Bannerlord",
+      "genres": ["Strategy", "RPG"],
+      "mood": ["thrill", "think"]
+    },
+    "646570": {
+      "appid": 646570,
+      "name": "Slay the Spire",
+      "genres": ["Roguelike", "Strategy"],
+      "mood": ["think", "relax"]
+    },
+    "1086940": {
+      "appid": 1086940,
+      "name": "Baldur's Gate 3",
+      "genres": ["RPG", "Strategy"],
+      "mood": ["story", "think"]
+    },
+    "620": {
+      "appid": 620,
+      "name": "Portal 2",
+      "genres": ["Puzzle", "Adventure"],
+      "mood": ["think"]
+    },
+    "219740": {
+      "appid": 219740,
+      "name": "Don't Starve Together",
+      "genres": ["Survival", "Adventure"],
+      "mood": ["think", "party"]
+    },
+    "431960": {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "genres": ["Utility"],
+      "mood": ["relax"]
+    },
+    "892970": {
+      "appid": 892970,
+      "name": "Valheim",
+      "genres": ["Survival", "Adventure"],
+      "mood": ["relax", "party"]
+    },
+    "1966720": {
+      "appid": 1966720,
+      "name": "Lethal Company",
+      "genres": ["Horror", "Co-op"],
+      "mood": ["thrill", "party"]
+    },
+    "1172470": {
+      "appid": 1172470,
+      "name": "Apex Legends",
+      "genres": ["Battle Royale", "FPS"],
+      "mood": ["thrill", "party"]
+    },
+    "1182480": {
+      "appid": 1182480,
+      "name": "SOULS",
+      "genres": ["Action", "RPG"],
+      "mood": ["story", "thrill"]
+    },
+    "1217060": {
+      "appid": 1217060,
+      "name": "Dying Light 2 Stay Human",
+      "genres": ["Action", "Survival"],
+      "mood": ["thrill", "story"]
+    },
+    "1203630": {
+      "appid": 1203630,
+      "name": "Chivalry 2",
+      "genres": ["Action", "Multiplayer"],
+      "mood": ["thrill", "party"]
+    },
+    "230410": {
+      "appid": 230410,
+      "name": "Warframe",
+      "genres": ["Action", "Shooter"],
+      "mood": ["thrill", "party"]
+    },
+    "1599340": {
+      "appid": 1599340,
+      "name": "Farming Simulator 22",
+      "genres": ["Simulation"],
+      "mood": ["relax"]
+    },
+    "648800": {
+      "appid": 648800,
+      "name": "Raft",
+      "genres": ["Survival", "Adventure"],
+      "mood": ["relax", "party"]
+    },
+    "739630": {
+      "appid": 739630,
+      "name": "Phasmophobia",
+      "genres": ["Horror", "Co-op"],
+      "mood": ["thrill", "party"]
+    },
+    "108600": {
+      "appid": 108600,
+      "name": "Project Zomboid",
+      "genres": ["Survival", "Simulation"],
+      "mood": ["think", "thrill"]
+    },
+    "1426210": {
+      "appid": 1426210,
+      "name": "It Takes Two",
+      "genres": ["Adventure", "Co-op"],
+      "mood": ["story", "party"]
+    },
+    "976730": {
+      "appid": 976730,
+      "name": "Halo: The Master Chief Collection",
+      "genres": ["FPS", "Action"],
+      "mood": ["thrill", "story"]
+    },
+    "1174370": {
+      "appid": 1174370,
+      "name": "DEATH STRANDING",
+      "genres": ["Action", "Adventure"],
+      "mood": ["story", "relax"]
+    },
+    "1145360": {
+      "appid": 1145360,
+      "name": "Hades",
+      "genres": ["Roguelike", "Action"],
+      "mood": ["thrill", "story"]
+    },
+    "1145380": {
+      "appid": 1145380,
+      "name": "Hades II",
+      "genres": ["Roguelike", "Action"],
+      "mood": ["thrill", "story"]
+    },
+    "1817070": {
+      "appid": 1817070,
+      "name": "Marvel's Spider-Man Remastered",
+      "genres": ["Action", "Adventure"],
+      "mood": ["thrill", "story"]
+    },
+    "1817190": {
+      "appid": 1817190,
+      "name": "Marvel's Spider-Man: Miles Morales",
+      "genres": ["Action", "Adventure"],
+      "mood": ["thrill", "story"]
+    },
+    "2369390": {
+      "appid": 2369390,
+      "name": "Tekken 8",
+      "genres": ["Fighting", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "1234140": {
+      "appid": 1234140,
+      "name": "Yu-Gi-Oh! Master Duel",
+      "genres": ["Card Game", "Strategy"],
+      "mood": ["think", "party"]
+    },
+    "1449850": {
+      "appid": 1449850,
+      "name": "Yu-Gi-Oh! Duel Links",
+      "genres": ["Card Game", "Strategy"],
+      "mood": ["think", "party"]
+    },
+    "1328670": {
+      "appid": 1328670,
+      "name": "Mass Effect Legendary Edition",
+      "genres": ["RPG", "Action"],
+      "mood": ["story", "thrill"]
+    },
+    "648350": {
+      "appid": 648350,
+      "name": "Oxygen Not Included",
+      "genres": ["Simulation", "Strategy"],
+      "mood": ["think"]
+    },
+    "814540": {
+      "appid": 814540,
+      "name": "Grim Dawn",
+      "genres": ["Action RPG", "RPG"],
+      "mood": ["thrill", "relax"]
+    },
+    "782330": {
+      "appid": 782330,
+      "name": "DOOM Eternal",
+      "genres": ["FPS", "Action"],
+      "mood": ["thrill"]
+    },
+    "292120": {
+      "appid": 292120,
+      "name": "Subnautica",
+      "genres": ["Survival", "Adventure"],
+      "mood": ["story", "relax"]
+    },
+    "264710": {
+      "appid": 264710,
+      "name": "Subnautica: Below Zero",
+      "genres": ["Survival", "Adventure"],
+      "mood": ["story", "relax"]
+    },
+    "1966900": {
+      "appid": 1966900,
+      "name": "Palworld",
+      "genres": ["Survival", "Adventure"],
+      "mood": ["relax", "party"]
+    },
+    "322330": {
+      "appid": 322330,
+      "name": "Don't Starve",
+      "genres": ["Survival", "Adventure"],
+      "mood": ["think", "thrill"]
+    },
+    "383870": {
+      "appid": 383870,
+      "name": "Firewatch",
+      "genres": ["Adventure", "Story"],
+      "mood": ["story", "relax"]
+    },
+    "1091100": {
+      "appid": 1091100,
+      "name": "Persona 5 Royal",
+      "genres": ["RPG", "Adventure"],
+      "mood": ["story", "think"]
+    },
+    "1332010": {
+      "appid": 1332010,
+      "name": "Stray",
+      "genres": ["Adventure", "Puzzle"],
+      "mood": ["story", "relax"]
+    },
+    "1517290": {
+      "appid": 1517290,
+      "name": "Battlefield 2042",
+      "genres": ["FPS", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "1623730": {
+      "appid": 1623730,
+      "name": "Palworld",
+      "genres": ["Survival", "Adventure"],
+      "mood": ["relax", "party"]
+    },
+    "601150": {
+      "appid": 601150,
+      "name": "Devil May Cry 5",
+      "genres": ["Action", "Hack and Slash"],
+      "mood": ["thrill"]
+    },
+    "976310": {
+      "appid": 976310,
+      "name": "Mortal Kombat 11",
+      "genres": ["Fighting", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "1245040": {
+      "appid": 1245040,
+      "name": "ELDEN RING",
+      "genres": ["Action", "RPG"],
+      "mood": ["thrill", "story"]
+    },
+    "418370": {
+      "appid": 418370,
+      "name": "Resident Evil 7 Biohazard",
+      "genres": ["Horror", "Action"],
+      "mood": ["thrill", "story"]
+    },
+    "883710": {
+      "appid": 883710,
+      "name": "Resident Evil 2",
+      "genres": ["Horror", "Action"],
+      "mood": ["thrill", "story"]
+    },
+    "952060": {
+      "appid": 952060,
+      "name": "Resident Evil 3",
+      "genres": ["Horror", "Action"],
+      "mood": ["thrill", "story"]
+    },
+    "1196590": {
+      "appid": 1196590,
+      "name": "Resident Evil Village",
+      "genres": ["Horror", "Action"],
+      "mood": ["thrill", "story"]
+    },
+    "1391110": {
+      "appid": 1391110,
+      "name": "Resident Evil 4",
+      "genres": ["Horror", "Action"],
+      "mood": ["thrill", "story"]
+    },
+    "813780": {
+      "appid": 813780,
+      "name": "Age of Empires II: Definitive Edition",
+      "genres": ["Strategy", "RTS"],
+      "mood": ["think", "party"]
+    },
+    "1466860": {
+      "appid": 1466860,
+      "name": "Age of Empires IV",
+      "genres": ["Strategy", "RTS"],
+      "mood": ["think", "party"]
+    },
+    "611500": {
+      "appid": 611500,
+      "name": "Quake Champions",
+      "genres": ["FPS", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "700330": {
+      "appid": 700330,
+      "name": "SYNTHETIK",
+      "genres": ["Roguelike", "Shooter"],
+      "mood": ["thrill", "think"]
+    },
+    "420110": {
+      "appid": 420110,
+      "name": "SUPERHOT",
+      "genres": ["FPS", "Puzzle"],
+      "mood": ["think", "thrill"]
+    },
+    "632360": {
+      "appid": 632360,
+      "name": "Risk of Rain 2",
+      "genres": ["Roguelike", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "230290": {
+      "appid": 230290,
+      "name": "Civilization V",
+      "genres": ["Strategy", "Turn-Based"],
+      "mood": ["think"]
+    },
+    "289070": {
+      "appid": 289070,
+      "name": "Civilization VI",
+      "genres": ["Strategy", "Turn-Based"],
+      "mood": ["think"]
+    },
+    "1604030": {
+      "appid": 1604030,
+      "name": "V Rising",
+      "genres": ["Survival", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "1366540": {
+      "appid": 1366540,
+      "name": "Satisfactory",
+      "genres": ["Simulation", "Building"],
+      "mood": ["think", "relax"]
+    },
+    "526870": {
+      "appid": 526870,
+      "name": "Satisfactory",
+      "genres": ["Simulation", "Building"],
+      "mood": ["think", "relax"]
+    },
+    "883710": {
+      "appid": 883710,
+      "name": "Factorio",
+      "genres": ["Simulation", "Strategy"],
+      "mood": ["think"]
+    },
+    "427520": {
+      "appid": 427520,
+      "name": "Factorio",
+      "genres": ["Simulation", "Strategy"],
+      "mood": ["think"]
+    },
+    "794600": {
+      "appid": 794600,
+      "name": "Subnautica: Below Zero",
+      "genres": ["Survival", "Adventure"],
+      "mood": ["story", "relax"]
+    },
+    "1517230": {
+      "appid": 1517230,
+      "name": "Melvor Idle",
+      "genres": ["Idle", "RPG"],
+      "mood": ["relax"]
+    },
+    "1128810": {
+      "appid": 1128810,
+      "name": "Kingdom Come: Deliverance",
+      "genres": ["RPG", "Adventure"],
+      "mood": ["story", "think"]
+    },
+    "377160": {
+      "appid": 377160,
+      "name": "Fallout 4",
+      "genres": ["RPG", "Action"],
+      "mood": ["story", "thrill"]
+    },
+    "292030": {
+      "appid": 292030,
+      "name": "The Witcher 3",
+      "genres": ["RPG", "Adventure"],
+      "mood": ["story", "relax"]
+    },
+    "1454400": {
+      "appid": 1454400,
+      "name": "GUILTY GEAR -STRIVE-",
+      "genres": ["Fighting", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "1172380": {
+      "appid": 1172380,
+      "name": "STAR WARS Jedi: Fallen Order",
+      "genres": ["Action", "Adventure"],
+      "mood": ["story", "thrill"]
+    },
+    "1774580": {
+      "appid": 1774580,
+      "name": "STAR WARS Jedi: Survivor",
+      "genres": ["Action", "Adventure"],
+      "mood": ["story", "thrill"]
+    },
+    "271590": {
+      "appid": 271590,
+      "name": "Grand Theft Auto V",
+      "genres": ["Action", "Adventure"],
+      "mood": ["thrill", "party"]
+    },
+    "1938090": {
+      "appid": 1938090,
+      "name": "Call of Duty",
+      "genres": ["FPS", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "976310": {
+      "appid": 976310,
+      "name": "Dead by Daylight",
+      "genres": ["Horror", "Multiplayer"],
+      "mood": ["thrill", "party"]
+    },
+    "381210": {
+      "appid": 381210,
+      "name": "Dead by Daylight",
+      "genres": ["Horror", "Multiplayer"],
+      "mood": ["thrill", "party"]
+    },
+    "1237970": {
+      "appid": 1237970,
+      "name": "Titanfall 2",
+      "genres": ["FPS", "Action"],
+      "mood": ["thrill", "story"]
+    },
+    "1623730": {
+      "appid": 1623730,
+      "name": "Palworld",
+      "genres": ["Survival", "Adventure"],
+      "mood": ["relax", "party"]
     }
   }
 }
