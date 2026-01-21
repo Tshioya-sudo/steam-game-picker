@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --steam-dark: #1b2838;
+  --steam-darker: #171a21;
+  --steam-blue: #66c0f4;
+  --steam-blue-dark: #1a9fff;
+  --steam-green: #5c7e10;
+  --steam-text: #c7d5e0;
+  --steam-text-light: #ffffff;
+}
+
+body {
+  background: linear-gradient(135deg, var(--steam-darker) 0%, var(--steam-dark) 100%);
+  color: var(--steam-text);
+  min-height: 100vh;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* カスタムスクロールバー */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--steam-darker);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--steam-blue);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--steam-blue-dark);
+}
+
+/* アニメーション */
+@keyframes spin-slot {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(102, 192, 244, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(102, 192, 244, 0.6); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(102, 192, 244, 0.2) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* モバイルファースト設計のベーススタイル */
+.container-mobile {
+  @apply w-full max-w-md mx-auto px-4;
+}
+
+@screen md {
+  .container-mobile {
+    @apply max-w-lg;
+  }
+}
+
+/* ボタンホバーエフェクト */
+.btn-steam {
+  @apply relative overflow-hidden transition-all duration-300;
+}
+
+.btn-steam::before {
+  content: '';
+  @apply absolute inset-0 bg-white/10 transform -translate-x-full transition-transform duration-300;
+}
+
+.btn-steam:hover::before {
+  @apply translate-x-0;
+}
+
+/* カード共通スタイル */
+.card-steam {
+  @apply bg-gradient-to-br from-[#1b2838] to-[#2a475e] rounded-xl border border-[#66c0f4]/20;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* フォーカスリング */
+.focus-steam {
+  @apply focus:outline-none focus:ring-2 focus:ring-[#66c0f4] focus:ring-offset-2 focus:ring-offset-[#1b2838];
+}

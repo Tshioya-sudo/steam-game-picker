@@ -1,0 +1,125 @@
+{
+  "description": "ゲームメタデータ（気分フィルター用）。実際の運用では1,000本以上のデータを用意。",
+  "games": {
+    "570": {
+      "appid": 570,
+      "name": "Dota 2",
+      "genres": ["MOBA", "Strategy"],
+      "mood": ["think", "party"]
+    },
+    "730": {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "genres": ["FPS", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "440": {
+      "appid": 440,
+      "name": "Team Fortress 2",
+      "genres": ["FPS", "Action"],
+      "mood": ["relax", "party"]
+    },
+    "1091500": {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077",
+      "genres": ["RPG", "Action"],
+      "mood": ["story", "thrill"]
+    },
+    "292030": {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "genres": ["RPG", "Adventure"],
+      "mood": ["story", "relax"]
+    },
+    "413150": {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "genres": ["Simulation", "RPG"],
+      "mood": ["relax"]
+    },
+    "367520": {
+      "appid": 367520,
+      "name": "Hollow Knight",
+      "genres": ["Action", "Adventure"],
+      "mood": ["think", "thrill"]
+    },
+    "814380": {
+      "appid": 814380,
+      "name": "Sekiro: Shadows Die Twice",
+      "genres": ["Action", "Adventure"],
+      "mood": ["thrill", "think"]
+    },
+    "1245620": {
+      "appid": 1245620,
+      "name": "ELDEN RING",
+      "genres": ["Action", "RPG"],
+      "mood": ["thrill", "story"]
+    },
+    "1174180": {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2",
+      "genres": ["Action", "Adventure"],
+      "mood": ["story", "relax"]
+    },
+    "1151640": {
+      "appid": 1151640,
+      "name": "Horizon Zero Dawn",
+      "genres": ["Action", "RPG"],
+      "mood": ["story", "thrill"]
+    },
+    "271590": {
+      "appid": 271590,
+      "name": "Grand Theft Auto V",
+      "genres": ["Action", "Adventure"],
+      "mood": ["thrill", "party"]
+    },
+    "582010": {
+      "appid": 582010,
+      "name": "MONSTER HUNTER: WORLD",
+      "genres": ["Action", "RPG"],
+      "mood": ["thrill", "party"]
+    },
+    "252490": {
+      "appid": 252490,
+      "name": "Rust",
+      "genres": ["Survival", "Action"],
+      "mood": ["thrill", "party"]
+    },
+    "105600": {
+      "appid": 105600,
+      "name": "Terraria",
+      "genres": ["Action", "Adventure"],
+      "mood": ["relax", "party"]
+    },
+    "245620": {
+      "appid": 245620,
+      "name": "Tropico 5",
+      "genres": ["Strategy", "Simulation"],
+      "mood": ["think", "relax"]
+    },
+    "394360": {
+      "appid": 394360,
+      "name": "Hearts of Iron IV",
+      "genres": ["Strategy", "Simulation"],
+      "mood": ["think"]
+    },
+    "281990": {
+      "appid": 281990,
+      "name": "Stellaris",
+      "genres": ["Strategy", "Simulation"],
+      "mood": ["think"]
+    },
+    "236390": {
+      "appid": 236390,
+      "name": "War Thunder",
+      "genres": ["Action", "Simulation"],
+      "mood": ["thrill", "party"]
+    },
+    "227300": {
+      "appid": 227300,
+      "name": "Euro Truck Simulator 2",
+      "genres": ["Simulation"],
+      "mood": ["relax"]
+    }
+  }
+}
