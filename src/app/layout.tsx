@@ -55,7 +55,29 @@ export default function RootLayout({
           {/* フッター */}
           <footer className="py-6 px-4 border-t border-steam-blue/20 text-sm text-steam-text/60">
             <div className="container-mobile space-y-4">
-              {/* リンク */}
+              {/* サポートリンク */}
+              <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2">
+                <a
+                  href="/guide"
+                  className="hover:text-steam-blue transition-colors"
+                >
+                  使い方ガイド
+                </a>
+                <a
+                  href="/faq"
+                  className="hover:text-steam-blue transition-colors"
+                >
+                  よくある質問
+                </a>
+                <a
+                  href="/howto-steamid"
+                  className="hover:text-steam-blue transition-colors"
+                >
+                  Steam ID確認方法
+                </a>
+              </nav>
+
+              {/* 法的リンク */}
               <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2">
                 <a
                   href="/about"
