@@ -51,10 +51,32 @@ export default function RootLayout({
           </main>
 
           {/* フッター */}
-          <footer className="py-4 px-4 border-t border-steam-blue/20 text-center text-sm text-steam-text/60">
-            <div className="container-mobile">
-              <p>This site is not affiliated with Valve or Steam.</p>
-              <p className="mt-1">
+          <footer className="py-6 px-4 border-t border-steam-blue/20 text-sm text-steam-text/60">
+            <div className="container-mobile space-y-4">
+              {/* リンク */}
+              <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2">
+                <a
+                  href="/about"
+                  className="hover:text-steam-blue transition-colors"
+                >
+                  このサイトについて
+                </a>
+                <a
+                  href="/terms"
+                  className="hover:text-steam-blue transition-colors"
+                >
+                  利用規約
+                </a>
+                <a
+                  href="/privacy"
+                  className="hover:text-steam-blue transition-colors"
+                >
+                  プライバシーポリシー
+                </a>
+              </nav>
+
+              {/* 外部リンク */}
+              <p className="text-center">
                 <a
                   href="https://store.steampowered.com/"
                   target="_blank"
@@ -63,6 +85,11 @@ export default function RootLayout({
                 >
                   Steam Store
                 </a>
+              </p>
+
+              {/* 免責事項 */}
+              <p className="text-center text-xs">
+                This site is not affiliated with Valve or Steam.
               </p>
             </div>
           </footer>
