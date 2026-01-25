@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className="antialiased min-h-screen">
+        <GoogleAnalytics />
         <div className="min-h-screen flex flex-col">
           {/* ヘッダー */}
           <header className="py-4 px-4 border-b border-steam-blue/20">
