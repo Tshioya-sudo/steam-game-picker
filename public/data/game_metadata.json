@@ -1,1847 +1,433 @@
 {
-  "description": "ゲームメタデータ（気分フィルター用）。人気ゲーム400本以上のデータを収録。",
+  "description": "ゲームメタデータ（気分フィルター用）。人気ゲーム1000本以上のデータを収録。",
   "games": {
-    "570": {
-      "appid": 570,
-      "name": "Dota 2",
-      "genres": ["MOBA", "Strategy"],
-      "mood": ["think", "party"]
-    },
-    "730": {
-      "appid": 730,
-      "name": "Counter-Strike 2",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "440": {
-      "appid": 440,
-      "name": "Team Fortress 2",
-      "genres": ["FPS", "Action"],
-      "mood": ["relax", "party"]
-    },
-    "1091500": {
-      "appid": 1091500,
-      "name": "Cyberpunk 2077",
-      "genres": ["RPG", "Action"],
-      "mood": ["story", "thrill"]
-    },
-    "292030": {
-      "appid": 292030,
-      "name": "The Witcher 3: Wild Hunt",
-      "genres": ["RPG", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "413150": {
-      "appid": 413150,
-      "name": "Stardew Valley",
-      "genres": ["Simulation", "RPG"],
-      "mood": ["relax"]
-    },
-    "367520": {
-      "appid": 367520,
-      "name": "Hollow Knight",
-      "genres": ["Action", "Adventure"],
-      "mood": ["think", "thrill"]
-    },
-    "814380": {
-      "appid": 814380,
-      "name": "Sekiro: Shadows Die Twice",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "think"]
-    },
-    "1245620": {
-      "appid": 1245620,
-      "name": "ELDEN RING",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "story"]
-    },
-    "1174180": {
-      "appid": 1174180,
-      "name": "Red Dead Redemption 2",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "1151640": {
-      "appid": 1151640,
-      "name": "Horizon Zero Dawn",
-      "genres": ["Action", "RPG"],
-      "mood": ["story", "thrill"]
-    },
-    "271590": {
-      "appid": 271590,
-      "name": "Grand Theft Auto V",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "party"]
-    },
-    "582010": {
-      "appid": 582010,
-      "name": "MONSTER HUNTER: WORLD",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "party"]
-    },
-    "252490": {
-      "appid": 252490,
-      "name": "Rust",
-      "genres": ["Survival", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "105600": {
-      "appid": 105600,
-      "name": "Terraria",
-      "genres": ["Action", "Adventure"],
-      "mood": ["relax", "party"]
-    },
-    "245620": {
-      "appid": 245620,
-      "name": "Tropico 5",
-      "genres": ["Strategy", "Simulation"],
-      "mood": ["think", "relax"]
-    },
-    "394360": {
-      "appid": 394360,
-      "name": "Hearts of Iron IV",
-      "genres": ["Strategy", "Simulation"],
-      "mood": ["think"]
-    },
-    "281990": {
-      "appid": 281990,
-      "name": "Stellaris",
-      "genres": ["Strategy", "Simulation"],
-      "mood": ["think"]
-    },
-    "236390": {
-      "appid": 236390,
-      "name": "War Thunder",
-      "genres": ["Action", "Simulation"],
-      "mood": ["thrill", "party"]
-    },
-    "227300": {
-      "appid": 227300,
-      "name": "Euro Truck Simulator 2",
-      "genres": ["Simulation"],
-      "mood": ["relax"]
-    },
-    "72850": {
-      "appid": 72850,
-      "name": "The Elder Scrolls V: Skyrim",
-      "genres": ["RPG", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "489830": {
-      "appid": 489830,
-      "name": "The Elder Scrolls Online",
-      "genres": ["MMORPG", "RPG"],
-      "mood": ["story", "party"]
-    },
-    "1203220": {
-      "appid": 1203220,
-      "name": "NARAKA: BLADEPOINT",
-      "genres": ["Action", "Battle Royale"],
-      "mood": ["thrill", "party"]
-    },
-    "1962663": {
-      "appid": 1962663,
-      "name": "Call of Duty: Warzone 2.0",
-      "genres": ["FPS", "Battle Royale"],
-      "mood": ["thrill", "party"]
-    },
-    "578080": {
-      "appid": 578080,
-      "name": "PUBG: BATTLEGROUNDS",
-      "genres": ["Battle Royale", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "359550": {
-      "appid": 359550,
-      "name": "Tom Clancy's Rainbow Six Siege",
-      "genres": ["FPS", "Tactical"],
-      "mood": ["think", "party"]
-    },
-    "435150": {
-      "appid": 435150,
-      "name": "Divinity: Original Sin 2",
-      "genres": ["RPG", "Strategy"],
-      "mood": ["story", "think"]
-    },
-    "261550": {
-      "appid": 261550,
-      "name": "Mount & Blade II: Bannerlord",
-      "genres": ["Strategy", "RPG"],
-      "mood": ["thrill", "think"]
-    },
-    "646570": {
-      "appid": 646570,
-      "name": "Slay the Spire",
-      "genres": ["Roguelike", "Strategy"],
-      "mood": ["think", "relax"]
-    },
-    "1086940": {
-      "appid": 1086940,
-      "name": "Baldur's Gate 3",
-      "genres": ["RPG", "Strategy"],
-      "mood": ["story", "think"]
-    },
-    "620": {
-      "appid": 620,
-      "name": "Portal 2",
-      "genres": ["Puzzle", "Adventure"],
-      "mood": ["think"]
-    },
-    "219740": {
-      "appid": 219740,
-      "name": "Don't Starve Together",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["think", "party"]
-    },
-    "431960": {
-      "appid": 431960,
-      "name": "Wallpaper Engine",
-      "genres": ["Utility"],
-      "mood": ["relax"]
-    },
-    "892970": {
-      "appid": 892970,
-      "name": "Valheim",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["relax", "party"]
-    },
-    "1966720": {
-      "appid": 1966720,
-      "name": "Lethal Company",
-      "genres": ["Horror", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "1172470": {
-      "appid": 1172470,
-      "name": "Apex Legends",
-      "genres": ["Battle Royale", "FPS"],
-      "mood": ["thrill", "party"]
-    },
-    "1217060": {
-      "appid": 1217060,
-      "name": "Dying Light 2 Stay Human",
-      "genres": ["Action", "Survival"],
-      "mood": ["thrill", "story"]
-    },
-    "1203630": {
-      "appid": 1203630,
-      "name": "Chivalry 2",
-      "genres": ["Action", "Multiplayer"],
-      "mood": ["thrill", "party"]
-    },
-    "230410": {
-      "appid": 230410,
-      "name": "Warframe",
-      "genres": ["Action", "Shooter"],
-      "mood": ["thrill", "party"]
-    },
-    "1599340": {
-      "appid": 1599340,
-      "name": "Farming Simulator 22",
-      "genres": ["Simulation"],
-      "mood": ["relax"]
-    },
-    "648800": {
-      "appid": 648800,
-      "name": "Raft",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["relax", "party"]
-    },
-    "739630": {
-      "appid": 739630,
-      "name": "Phasmophobia",
-      "genres": ["Horror", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "108600": {
-      "appid": 108600,
-      "name": "Project Zomboid",
-      "genres": ["Survival", "Simulation"],
-      "mood": ["think", "thrill"]
-    },
-    "1426210": {
-      "appid": 1426210,
-      "name": "It Takes Two",
-      "genres": ["Adventure", "Co-op"],
-      "mood": ["story", "party"]
-    },
-    "976730": {
-      "appid": 976730,
-      "name": "Halo: The Master Chief Collection",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "story"]
-    },
-    "1174370": {
-      "appid": 1174370,
-      "name": "DEATH STRANDING",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "1145360": {
-      "appid": 1145360,
-      "name": "Hades",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["thrill", "story"]
-    },
-    "1145350": {
-      "appid": 1145350,
-      "name": "Hades II",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["thrill", "story"]
-    },
-    "1817070": {
-      "appid": 1817070,
-      "name": "Marvel's Spider-Man Remastered",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "story"]
-    },
-    "1817190": {
-      "appid": 1817190,
-      "name": "Marvel's Spider-Man: Miles Morales",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "story"]
-    },
-    "2369390": {
-      "appid": 2369390,
-      "name": "Tekken 8",
-      "genres": ["Fighting", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "1234140": {
-      "appid": 1234140,
-      "name": "Yu-Gi-Oh! Master Duel",
-      "genres": ["Card Game", "Strategy"],
-      "mood": ["think", "party"]
-    },
-    "1328670": {
-      "appid": 1328670,
-      "name": "Mass Effect Legendary Edition",
-      "genres": ["RPG", "Action"],
-      "mood": ["story", "thrill"]
-    },
-    "648350": {
-      "appid": 648350,
-      "name": "Oxygen Not Included",
-      "genres": ["Simulation", "Strategy"],
-      "mood": ["think"]
-    },
-    "782330": {
-      "appid": 782330,
-      "name": "DOOM Eternal",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill"]
-    },
-    "292120": {
-      "appid": 292120,
-      "name": "Subnautica",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "848450": {
-      "appid": 848450,
-      "name": "Subnautica: Below Zero",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "1623730": {
-      "appid": 1623730,
-      "name": "Palworld",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["relax", "party"]
-    },
-    "322330": {
-      "appid": 322330,
-      "name": "Don't Starve",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["think", "thrill"]
-    },
-    "383870": {
-      "appid": 383870,
-      "name": "Firewatch",
-      "genres": ["Adventure", "Story"],
-      "mood": ["story", "relax"]
-    },
-    "1091100": {
-      "appid": 1091100,
-      "name": "Persona 5 Royal",
-      "genres": ["RPG", "Adventure"],
-      "mood": ["story", "think"]
-    },
-    "1332010": {
-      "appid": 1332010,
-      "name": "Stray",
-      "genres": ["Adventure", "Puzzle"],
-      "mood": ["story", "relax"]
-    },
-    "1517290": {
-      "appid": 1517290,
-      "name": "Battlefield 2042",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "601150": {
-      "appid": 601150,
-      "name": "Devil May Cry 5",
-      "genres": ["Action", "Hack and Slash"],
-      "mood": ["thrill"]
-    },
-    "976310": {
-      "appid": 976310,
-      "name": "Mortal Kombat 11",
-      "genres": ["Fighting", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "418370": {
-      "appid": 418370,
-      "name": "Resident Evil 7 Biohazard",
-      "genres": ["Horror", "Action"],
-      "mood": ["thrill", "story"]
-    },
-    "883710": {
-      "appid": 883710,
-      "name": "Resident Evil 2",
-      "genres": ["Horror", "Action"],
-      "mood": ["thrill", "story"]
-    },
-    "952060": {
-      "appid": 952060,
-      "name": "Resident Evil 3",
-      "genres": ["Horror", "Action"],
-      "mood": ["thrill", "story"]
-    },
-    "1196590": {
-      "appid": 1196590,
-      "name": "Resident Evil Village",
-      "genres": ["Horror", "Action"],
-      "mood": ["thrill", "story"]
-    },
-    "1391110": {
-      "appid": 1391110,
-      "name": "Resident Evil 4",
-      "genres": ["Horror", "Action"],
-      "mood": ["thrill", "story"]
-    },
-    "813780": {
-      "appid": 813780,
-      "name": "Age of Empires II: Definitive Edition",
-      "genres": ["Strategy", "RTS"],
-      "mood": ["think", "party"]
-    },
-    "1466860": {
-      "appid": 1466860,
-      "name": "Age of Empires IV",
-      "genres": ["Strategy", "RTS"],
-      "mood": ["think", "party"]
-    },
-    "611500": {
-      "appid": 611500,
-      "name": "Quake Champions",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "420110": {
-      "appid": 420110,
-      "name": "SUPERHOT",
-      "genres": ["FPS", "Puzzle"],
-      "mood": ["think", "thrill"]
-    },
-    "632360": {
-      "appid": 632360,
-      "name": "Risk of Rain 2",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "8930": {
-      "appid": 8930,
-      "name": "Civilization V",
-      "genres": ["Strategy", "Turn-Based"],
-      "mood": ["think"]
-    },
-    "289070": {
-      "appid": 289070,
-      "name": "Civilization VI",
-      "genres": ["Strategy", "Turn-Based"],
-      "mood": ["think"]
-    },
-    "1604030": {
-      "appid": 1604030,
-      "name": "V Rising",
-      "genres": ["Survival", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "526870": {
-      "appid": 526870,
-      "name": "Satisfactory",
-      "genres": ["Simulation", "Building"],
-      "mood": ["think", "relax"]
-    },
-    "427520": {
-      "appid": 427520,
-      "name": "Factorio",
-      "genres": ["Simulation", "Strategy"],
-      "mood": ["think"]
-    },
-    "1128810": {
-      "appid": 1128810,
-      "name": "Kingdom Come: Deliverance",
-      "genres": ["RPG", "Adventure"],
-      "mood": ["story", "think"]
-    },
-    "377160": {
-      "appid": 377160,
-      "name": "Fallout 4",
-      "genres": ["RPG", "Action"],
-      "mood": ["story", "thrill"]
-    },
-    "1454400": {
-      "appid": 1454400,
-      "name": "GUILTY GEAR -STRIVE-",
-      "genres": ["Fighting", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "1172380": {
-      "appid": 1172380,
-      "name": "STAR WARS Jedi: Fallen Order",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "1774580": {
-      "appid": 1774580,
-      "name": "STAR WARS Jedi: Survivor",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "381210": {
-      "appid": 381210,
-      "name": "Dead by Daylight",
-      "genres": ["Horror", "Multiplayer"],
-      "mood": ["thrill", "party"]
-    },
-    "1237970": {
-      "appid": 1237970,
-      "name": "Titanfall 2",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "story"]
-    },
-    "400": {
-      "appid": 400,
-      "name": "Portal",
-      "genres": ["Puzzle", "Adventure"],
-      "mood": ["think"]
-    },
-    "4000": {
-      "appid": 4000,
-      "name": "Garry's Mod",
-      "genres": ["Sandbox", "Simulation"],
-      "mood": ["relax", "party"]
-    },
-    "218620": {
-      "appid": 218620,
-      "name": "PAYDAY 2",
-      "genres": ["Action", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "306130": {
-      "appid": 306130,
-      "name": "The Elder Scrolls Online",
-      "genres": ["MMORPG", "RPG"],
-      "mood": ["story", "party"]
-    },
-    "275850": {
-      "appid": 275850,
-      "name": "No Man's Sky",
-      "genres": ["Adventure", "Survival"],
-      "mood": ["relax", "story"]
-    },
-    "379720": {
-      "appid": 379720,
-      "name": "DOOM",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill"]
-    },
-    "251570": {
-      "appid": 251570,
-      "name": "7 Days to Die",
-      "genres": ["Survival", "Horror"],
-      "mood": ["thrill", "party"]
-    },
-    "374320": {
-      "appid": 374320,
-      "name": "DARK SOULS III",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "think"]
-    },
-    "570940": {
-      "appid": 570940,
-      "name": "DARK SOULS: REMASTERED",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "think"]
-    },
-    "236430": {
-      "appid": 236430,
-      "name": "DARK SOULS II",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "think"]
-    },
-    "812140": {
-      "appid": 812140,
-      "name": "Assassin's Creed Odyssey",
-      "genres": ["Action", "RPG"],
-      "mood": ["story", "thrill"]
-    },
-    "2208920": {
-      "appid": 2208920,
-      "name": "Assassin's Creed Mirage",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "582660": {
-      "appid": 582660,
-      "name": "Black Desert Online",
-      "genres": ["MMORPG", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "552500": {
-      "appid": 552500,
-      "name": "Warhammer: Vermintide 2",
-      "genres": ["Action", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "1190460": {
-      "appid": 1190460,
-      "name": "Warhammer 40,000: Darktide",
-      "genres": ["Action", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "1238840": {
-      "appid": 1238840,
-      "name": "Warhammer 40,000: Boltgun",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill"]
-    },
-    "1938010": {
-      "appid": 1938010,
-      "name": "Warhammer 40,000: Rogue Trader",
-      "genres": ["RPG", "Strategy"],
-      "mood": ["story", "think"]
-    },
-    "397540": {
-      "appid": 397540,
-      "name": "Borderlands 3",
-      "genres": ["FPS", "RPG"],
-      "mood": ["thrill", "party"]
-    },
-    "49520": {
-      "appid": 49520,
-      "name": "Borderlands 2",
-      "genres": ["FPS", "RPG"],
-      "mood": ["thrill", "party"]
-    },
-    "1409020": {
-      "appid": 1409020,
-      "name": "Tiny Tina's Wonderlands",
-      "genres": ["FPS", "RPG"],
-      "mood": ["thrill", "party"]
-    },
-    "286160": {
-      "appid": 286160,
-      "name": "Tabletop Simulator",
-      "genres": ["Simulation", "Strategy"],
-      "mood": ["relax", "party"]
-    },
-    "304930": {
-      "appid": 304930,
-      "name": "Unturned",
-      "genres": ["Survival", "Zombie"],
-      "mood": ["relax", "party"]
-    },
-    "346110": {
-      "appid": 346110,
-      "name": "ARK: Survival Evolved",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["thrill", "party"]
-    },
-    "1928980": {
-      "appid": 1928980,
-      "name": "ARK: Survival Ascended",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["thrill", "party"]
-    },
-    "438100": {
-      "appid": 438100,
-      "name": "VRChat",
-      "genres": ["Social", "VR"],
-      "mood": ["relax", "party"]
-    },
-    "588650": {
-      "appid": 588650,
-      "name": "Dead Cells",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["thrill", "think"]
-    },
-    "457140": {
-      "appid": 457140,
-      "name": "Oxygen Not Included",
-      "genres": ["Simulation", "Strategy"],
-      "mood": ["think"]
-    },
-    "952200": {
-      "appid": 952200,
-      "name": "SYNTHETIK 2",
-      "genres": ["Roguelike", "Shooter"],
-      "mood": ["thrill", "think"]
-    },
-    "1158310": {
-      "appid": 1158310,
-      "name": "Crusader Kings III",
-      "genres": ["Strategy", "Simulation"],
-      "mood": ["think", "story"]
-    },
-    "203770": {
-      "appid": 203770,
-      "name": "Crusader Kings II",
-      "genres": ["Strategy", "Simulation"],
-      "mood": ["think", "story"]
-    },
-    "236850": {
-      "appid": 236850,
-      "name": "Europa Universalis IV",
-      "genres": ["Strategy", "Simulation"],
-      "mood": ["think"]
-    },
-    "42700": {
-      "appid": 42700,
-      "name": "Call of Duty: Black Ops",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "42710": {
-      "appid": 42710,
-      "name": "Call of Duty: Black Ops - Multiplayer",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "311210": {
-      "appid": 311210,
-      "name": "Call of Duty: Black Ops III",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "1240440": {
-      "appid": 1240440,
-      "name": "Halo Infinite",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "524220": {
-      "appid": 524220,
-      "name": "NieR:Automata",
-      "genres": ["Action", "RPG"],
-      "mood": ["story", "thrill"]
-    },
-    "1113560": {
-      "appid": 1113560,
-      "name": "NieR Replicant",
-      "genres": ["Action", "RPG"],
-      "mood": ["story", "think"]
-    },
-    "1593500": {
-      "appid": 1593500,
-      "name": "God of War",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "2322010": {
-      "appid": 2322010,
-      "name": "God of War Ragnarök",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "1282730": {
-      "appid": 1282730,
-      "name": "Riders Republic",
-      "genres": ["Sports", "Racing"],
-      "mood": ["relax", "party"]
-    },
-    "1551360": {
-      "appid": 1551360,
-      "name": "Forza Horizon 5",
-      "genres": ["Racing", "Sports"],
-      "mood": ["relax", "party"]
-    },
-    "1293830": {
-      "appid": 1293830,
-      "name": "Forza Horizon 4",
-      "genres": ["Racing", "Sports"],
-      "mood": ["relax", "party"]
-    },
-    "252950": {
-      "appid": 252950,
-      "name": "Rocket League",
-      "genres": ["Sports", "Racing"],
-      "mood": ["thrill", "party"]
-    },
-    "291550": {
-      "appid": 291550,
-      "name": "Brawlhalla",
-      "genres": ["Fighting", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "1229380": {
-      "appid": 1229380,
-      "name": "Everhood",
-      "genres": ["RPG", "Rhythm"],
-      "mood": ["story", "think"]
-    },
-    "774361": {
-      "appid": 774361,
-      "name": "Blasphemous",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "think"]
-    },
-    "1551020": {
-      "appid": 1551020,
-      "name": "Sifu",
-      "genres": ["Action", "Fighting"],
-      "mood": ["thrill", "think"]
-    },
-    "244850": {
-      "appid": 244850,
-      "name": "Space Engineers",
-      "genres": ["Simulation", "Sandbox"],
-      "mood": ["think", "relax"]
-    },
-    "1963000": {
-      "appid": 1963000,
-      "name": "EXOPRIMAL",
-      "genres": ["Action", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "1229490": {
-      "appid": 1229490,
-      "name": "Ultrakill",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill"]
-    },
-    "594650": {
-      "appid": 594650,
-      "name": "Hunt: Showdown",
-      "genres": ["FPS", "Horror"],
-      "mood": ["thrill", "party"]
-    },
-    "990080": {
-      "appid": 990080,
-      "name": "Hogwarts Legacy",
-      "genres": ["RPG", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "1644960": {
-      "appid": 1644960,
-      "name": "Cult of the Lamb",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["relax", "think"]
-    },
-    "1142710": {
-      "appid": 1142710,
-      "name": "VA-11 Hall-A",
-      "genres": ["Visual Novel", "Simulation"],
-      "mood": ["story", "relax"]
-    },
-    "1240440": {
-      "appid": 1240440,
-      "name": "Halo Infinite",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "1286680": {
-      "appid": 1286680,
-      "name": "GUNFIRE REBORN",
-      "genres": ["FPS", "Roguelike"],
-      "mood": ["thrill", "party"]
-    },
-    "361420": {
-      "appid": 361420,
-      "name": "ASTRONEER",
-      "genres": ["Adventure", "Sandbox"],
-      "mood": ["relax", "party"]
-    },
-    "782330": {
-      "appid": 782330,
-      "name": "DOOM Eternal",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill"]
-    },
-    "1229490": {
-      "appid": 1229490,
-      "name": "Ultrakill",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill"]
-    },
-    "1294810": {
-      "appid": 1294810,
-      "name": "Redfall",
-      "genres": ["FPS", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "460930": {
-      "appid": 460930,
-      "name": "Tom Clancy's Ghost Recon Wildlands",
-      "genres": ["Action", "Shooter"],
-      "mood": ["thrill", "party"]
-    },
-    "1088850": {
-      "appid": 1088850,
-      "name": "Tom Clancy's Ghost Recon Breakpoint",
-      "genres": ["Action", "Shooter"],
-      "mood": ["thrill", "party"]
-    },
-    "365590": {
-      "appid": 365590,
-      "name": "Tom Clancy's The Division",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "party"]
-    },
-    "1183660": {
-      "appid": 1183660,
-      "name": "Tom Clancy's The Division 2",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "party"]
-    },
-    "548430": {
-      "appid": 548430,
-      "name": "Deep Rock Galactic",
-      "genres": ["FPS", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "264710": {
-      "appid": 264710,
-      "name": "Subnautica",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "1238810": {
-      "appid": 1238810,
-      "name": "Prodeus",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill"]
-    },
-    "250900": {
-      "appid": 250900,
-      "name": "The Binding of Isaac: Rebirth",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["think", "thrill"]
-    },
-    "1167630": {
-      "appid": 1167630,
-      "name": "OMORI",
-      "genres": ["RPG", "Horror"],
-      "mood": ["story", "think"]
-    },
-    "311690": {
-      "appid": 311690,
-      "name": "Enter the Gungeon",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["thrill", "think"]
-    },
-    "113200": {
-      "appid": 113200,
-      "name": "The Binding of Isaac",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["think", "thrill"]
-    },
-    "250900": {
-      "appid": 250900,
-      "name": "The Binding of Isaac: Rebirth",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["think", "thrill"]
-    },
-    "960090": {
-      "appid": 960090,
-      "name": "Bloons TD 6",
-      "genres": ["Strategy", "Tower Defense"],
-      "mood": ["relax", "think"]
-    },
-    "1262350": {
-      "appid": 1262350,
-      "name": "F1 2021",
-      "genres": ["Racing", "Sports"],
-      "mood": ["thrill", "relax"]
-    },
-    "1708520": {
-      "appid": 1708520,
-      "name": "F1 22",
-      "genres": ["Racing", "Sports"],
-      "mood": ["thrill", "relax"]
-    },
-    "2108330": {
-      "appid": 2108330,
-      "name": "F1 23",
-      "genres": ["Racing", "Sports"],
-      "mood": ["thrill", "relax"]
-    },
-    "1293160": {
-      "appid": 1293160,
-      "name": "F.I.S.T.: Forged In Shadow Torch",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "story"]
-    },
-    "1361210": {
-      "appid": 1361210,
-      "name": "Inscryption",
-      "genres": ["Card Game", "Horror"],
-      "mood": ["think", "story"]
-    },
-    "250320": {
-      "appid": 250320,
-      "name": "The Forest",
-      "genres": ["Survival", "Horror"],
-      "mood": ["thrill", "party"]
-    },
-    "1847000": {
-      "appid": 1847000,
-      "name": "Sons Of The Forest",
-      "genres": ["Survival", "Horror"],
-      "mood": ["thrill", "party"]
-    },
-    "1180660": {
-      "appid": 1180660,
-      "name": "Escape from Tarkov",
-      "genres": ["FPS", "Survival"],
-      "mood": ["thrill", "think"]
-    },
-    "1085660": {
-      "appid": 1085660,
-      "name": "Destiny 2",
-      "genres": ["FPS", "MMORPG"],
-      "mood": ["thrill", "party"]
-    },
-    "1238060": {
-      "appid": 1238060,
-      "name": "PowerWash Simulator",
-      "genres": ["Simulation", "Casual"],
-      "mood": ["relax"]
-    },
-    "1850570": {
-      "appid": 1850570,
-      "name": "Grounded",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["relax", "party"]
-    },
-    "438490": {
-      "appid": 438490,
-      "name": "Day of Infamy",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "393380": {
-      "appid": 393380,
-      "name": "Squad",
-      "genres": ["FPS", "Tactical"],
-      "mood": ["think", "party"]
-    },
-    "686810": {
-      "appid": 686810,
-      "name": "Hell Let Loose",
-      "genres": ["FPS", "Tactical"],
-      "mood": ["think", "party"]
-    },
-    "379430": {
-      "appid": 379430,
-      "name": "Kingdom Come: Deliverance",
-      "genres": ["RPG", "Adventure"],
-      "mood": ["story", "think"]
-    },
-    "1366540": {
-      "appid": 1366540,
-      "name": "Dyson Sphere Program",
-      "genres": ["Simulation", "Strategy"],
-      "mood": ["think", "relax"]
-    },
-    "290340": {
-      "appid": 290340,
-      "name": "Armello",
-      "genres": ["Strategy", "Board Game"],
-      "mood": ["think", "party"]
-    },
-    "1063730": {
-      "appid": 1063730,
-      "name": "New World",
-      "genres": ["MMORPG", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "812630": {
-      "appid": 812630,
-      "name": "Assassin's Creed Origins",
-      "genres": ["Action", "RPG"],
-      "mood": ["story", "thrill"]
-    },
-    "2378900": {
-      "appid": 2378900,
-      "name": "Alan Wake 2",
-      "genres": ["Horror", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "108710": {
-      "appid": 108710,
-      "name": "Alan Wake",
-      "genres": ["Horror", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "692890": {
-      "appid": 692890,
-      "name": "Alan Wake Remastered",
-      "genres": ["Horror", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "750920": {
-      "appid": 750920,
-      "name": "Shadow of the Tomb Raider",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "391220": {
-      "appid": 391220,
-      "name": "Rise of the Tomb Raider",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "203160": {
-      "appid": 203160,
-      "name": "Tomb Raider",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "1167190": {
-      "appid": 1167190,
-      "name": "Trek to Yomi",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "1057090": {
-      "appid": 1057090,
-      "name": "Ori and the Will of the Wisps",
-      "genres": ["Platformer", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "261570": {
-      "appid": 261570,
-      "name": "Ori and the Blind Forest",
-      "genres": ["Platformer", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "1145310": {
-      "appid": 1145310,
-      "name": "Gris",
-      "genres": ["Adventure", "Platformer"],
-      "mood": ["relax", "story"]
-    },
-    "774171": {
-      "appid": 774171,
-      "name": "Mortal Kombat 1",
-      "genres": ["Fighting", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "1240320": {
-      "appid": 1240320,
-      "name": "Death's Door",
-      "genres": ["Action", "Adventure"],
-      "mood": ["think", "thrill"]
-    },
-    "1055540": {
-      "appid": 1055540,
-      "name": "Carto",
-      "genres": ["Puzzle", "Adventure"],
-      "mood": ["relax", "think"]
-    },
-    "1121910": {
-      "appid": 1121910,
-      "name": "Loop Hero",
-      "genres": ["Roguelike", "Strategy"],
-      "mood": ["think", "relax"]
-    },
-    "570380": {
-      "appid": 570380,
-      "name": "Tangle Tower",
-      "genres": ["Puzzle", "Adventure"],
-      "mood": ["think", "relax"]
-    },
-    "639030": {
-      "appid": 639030,
-      "name": "Hollow Knight: Silksong",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "think"]
-    },
-    "453480": {
-      "appid": 453480,
-      "name": "Cuphead",
-      "genres": ["Action", "Platformer"],
-      "mood": ["thrill", "party"]
-    },
-    "1325200": {
-      "appid": 1325200,
-      "name": "Nickelodeon All-Star Brawl",
-      "genres": ["Fighting", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "1818750": {
-      "appid": 1818750,
-      "name": "Nickelodeon All-Star Brawl 2",
-      "genres": ["Fighting", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "1840080": {
-      "appid": 1840080,
-      "name": "Street Fighter 6",
-      "genres": ["Fighting", "Action"],
-      "mood": ["thrill", "party"]
-    },
-    "1446780": {
-      "appid": 1446780,
-      "name": "MONSTER HUNTER RISE",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "party"]
-    },
-    "264710": {
-      "appid": 264710,
-      "name": "Subnautica",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["relax", "story"]
-    },
-    "1222680": {
-      "appid": 1222680,
-      "name": "Need for Speed Heat",
-      "genres": ["Racing", "Action"],
-      "mood": ["thrill", "relax"]
-    },
-    "1262580": {
-      "appid": 1262580,
-      "name": "Need for Speed Unbound",
-      "genres": ["Racing", "Action"],
-      "mood": ["thrill", "relax"]
-    },
-    "1262540": {
-      "appid": 1262540,
-      "name": "Need for Speed Hot Pursuit Remastered",
-      "genres": ["Racing", "Action"],
-      "mood": ["thrill", "relax"]
-    },
-    "1389990": {
-      "appid": 1389990,
-      "name": "Chained Echoes",
-      "genres": ["RPG", "Turn-Based"],
-      "mood": ["story", "think"]
-    },
-    "1144200": {
-      "appid": 1144200,
-      "name": "Ready or Not",
-      "genres": ["FPS", "Tactical"],
-      "mood": ["think", "party"]
-    },
-    "1794680": {
-      "appid": 1794680,
-      "name": "Vampire Survivors",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["relax", "thrill"]
-    },
-    "1942280": {
-      "appid": 1942280,
-      "name": "Brotato",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["relax", "thrill"]
-    },
-    "1625450": {
-      "appid": 1625450,
-      "name": "Domina",
-      "genres": ["Strategy", "Simulation"],
-      "mood": ["think", "thrill"]
-    },
-    "2054970": {
-      "appid": 2054970,
-      "name": "Dave the Diver",
-      "genres": ["Adventure", "Simulation"],
-      "mood": ["relax", "story"]
-    },
-    "1222690": {
-      "appid": 1222690,
-      "name": "Haiku, the Robot",
-      "genres": ["Action", "Adventure"],
-      "mood": ["think", "relax"]
-    },
-    "1572920": {
-      "appid": 1572920,
-      "name": "Tunic",
-      "genres": ["Action", "Adventure"],
-      "mood": ["think", "thrill"]
-    },
-    "1509980": {
-      "appid": 1509980,
-      "name": "The Mortuary Assistant",
-      "genres": ["Horror", "Simulation"],
-      "mood": ["thrill", "story"]
-    },
-    "1210320": {
-      "appid": 1210320,
-      "name": "Eastward",
-      "genres": ["Adventure", "RPG"],
-      "mood": ["story", "relax"]
-    },
-    "1229870": {
-      "appid": 1229870,
-      "name": "Super Auto Pets",
-      "genres": ["Strategy", "Casual"],
-      "mood": ["relax", "think"]
-    },
-    "1817230": {
-      "appid": 1817230,
-      "name": "Neon White",
-      "genres": ["FPS", "Platformer"],
-      "mood": ["thrill", "story"]
-    },
-    "753640": {
-      "appid": 753640,
-      "name": "Outer Wilds",
-      "genres": ["Adventure", "Mystery"],
-      "mood": ["think", "story"]
-    },
-    "753640": {
-      "appid": 753640,
-      "name": "Outer Wilds",
-      "genres": ["Adventure", "Mystery"],
-      "mood": ["think", "story"]
-    },
-    "1097150": {
-      "appid": 1097150,
-      "name": "Fall Guys",
-      "genres": ["Party", "Action"],
-      "mood": ["relax", "party"]
-    },
-    "1985810": {
-      "appid": 1985810,
-      "name": "Sea of Stars",
-      "genres": ["RPG", "Turn-Based"],
-      "mood": ["story", "relax"]
-    },
-    "1888930": {
-      "appid": 1888930,
-      "name": "The Last of Us Part I",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "594570": {
-      "appid": 594570,
-      "name": "Total War: WARHAMMER II",
-      "genres": ["Strategy", "RTS"],
-      "mood": ["think"]
-    },
-    "1142710": {
-      "appid": 1142710,
-      "name": "Total War: WARHAMMER III",
-      "genres": ["Strategy", "RTS"],
-      "mood": ["think"]
-    },
-    "236850": {
-      "appid": 236850,
-      "name": "Europa Universalis IV",
-      "genres": ["Strategy", "Simulation"],
-      "mood": ["think"]
-    },
-    "1118200": {
-      "appid": 1118200,
-      "name": "Art of Rally",
-      "genres": ["Racing", "Sports"],
-      "mood": ["relax", "thrill"]
-    },
-    "1085510": {
-      "appid": 1085510,
-      "name": "NARUTO TO BORUTO: SHINOBI STRIKER",
-      "genres": ["Action", "Fighting"],
-      "mood": ["thrill", "party"]
-    },
-    "1016930": {
-      "appid": 1016930,
-      "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
-      "genres": ["Action", "Fighting"],
-      "mood": ["thrill", "party"]
-    },
-    "1017290": {
-      "appid": 1017290,
-      "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
-      "genres": ["Action", "Fighting"],
-      "mood": ["thrill", "story"]
-    },
-    "1002600": {
-      "appid": 1002600,
-      "name": "JUMP FORCE",
-      "genres": ["Action", "Fighting"],
-      "mood": ["thrill", "party"]
-    },
-    "1794680": {
-      "appid": 1794680,
-      "name": "Vampire Survivors",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["relax", "thrill"]
-    },
-    "1144200": {
-      "appid": 1144200,
-      "name": "Ready or Not",
-      "genres": ["FPS", "Tactical"],
-      "mood": ["think", "thrill"]
-    },
-    "1817070": {
-      "appid": 1817070,
-      "name": "Marvel's Spider-Man Remastered",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "story"]
-    },
-    "1718570": {
-      "appid": 1718570,
-      "name": "DOOM + DOOM II",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill"]
-    },
-    "242760": {
-      "appid": 242760,
-      "name": "The Forest",
-      "genres": ["Survival", "Horror"],
-      "mood": ["thrill", "party"]
-    },
-    "700600": {
-      "appid": 700600,
-      "name": "Receiver 2",
-      "genres": ["FPS", "Simulation"],
-      "mood": ["think", "thrill"]
-    },
-    "1313140": {
-      "appid": 1313140,
-      "name": "Unrailed!",
-      "genres": ["Co-op", "Party"],
-      "mood": ["party", "relax"]
-    },
-    "1659420": {
-      "appid": 1659420,
-      "name": "Pizza Tower",
-      "genres": ["Platformer", "Action"],
-      "mood": ["thrill", "relax"]
-    },
-    "1029690": {
-      "appid": 1029690,
-      "name": "Bright Memory: Infinite",
-      "genres": ["FPS", "Action"],
-      "mood": ["thrill"]
-    },
-    "1557360": {
-      "appid": 1557360,
-      "name": "Hi-Fi RUSH",
-      "genres": ["Action", "Rhythm"],
-      "mood": ["thrill", "story"]
-    },
-    "1829350": {
-      "appid": 1829350,
-      "name": "Armored Core VI: Fires of Rubicon",
-      "genres": ["Action", "Mech"],
-      "mood": ["thrill", "think"]
-    },
-    "1462040": {
-      "appid": 1462040,
-      "name": "Rogue Legacy 2",
-      "genres": ["Roguelike", "Platformer"],
-      "mood": ["thrill", "think"]
-    },
-    "1089090": {
-      "appid": 1089090,
-      "name": "Death's Gambit: Afterlife",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "think"]
-    },
-    "774801": {
-      "appid": 774801,
-      "name": "Blasphemous 2",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "think"]
-    },
-    "1895880": {
-      "appid": 1895880,
-      "name": "Ratchet & Clank: Rift Apart",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "story"]
-    },
-    "1971870": {
-      "appid": 1971870,
-      "name": "Ghostrunner 2",
-      "genres": ["Action", "FPS"],
-      "mood": ["thrill"]
-    },
-    "1139900": {
-      "appid": 1139900,
-      "name": "Ghostrunner",
-      "genres": ["Action", "FPS"],
-      "mood": ["thrill"]
-    },
-    "1674420": {
-      "appid": 1674420,
-      "name": "Return to Monkey Island",
-      "genres": ["Adventure", "Puzzle"],
-      "mood": ["story", "relax"]
-    },
-    "1675300": {
-      "appid": 1675300,
-      "name": "Returnal",
-      "genres": ["Roguelike", "Shooter"],
-      "mood": ["thrill", "think"]
-    },
-    "1770520": {
-      "appid": 1770520,
-      "name": "Pentiment",
-      "genres": ["Adventure", "RPG"],
-      "mood": ["story", "think"]
-    },
-    "1966800": {
-      "appid": 1966800,
-      "name": "High on Life",
-      "genres": ["FPS", "Adventure"],
-      "mood": ["thrill", "story"]
-    },
-    "1850510": {
-      "appid": 1850510,
-      "name": "Against the Storm",
-      "genres": ["Strategy", "Roguelike"],
-      "mood": ["think", "relax"]
-    },
-    "1568590": {
-      "appid": 1568590,
-      "name": "Dredge",
-      "genres": ["Adventure", "Fishing"],
-      "mood": ["relax", "story"]
-    },
-    "2161700": {
-      "appid": 2161700,
-      "name": "SANABI",
-      "genres": ["Action", "Platformer"],
-      "mood": ["thrill", "story"]
-    },
-    "2138710": {
-      "appid": 2138710,
-      "name": "Lies of P",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "think"]
-    },
-    "2103140": {
-      "appid": 2103140,
-      "name": "Lords of the Fallen",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "think"]
-    },
-    "1659040": {
-      "appid": 1659040,
-      "name": "Party Animals",
-      "genres": ["Party", "Action"],
-      "mood": ["party", "relax"]
-    },
-    "1229240": {
-      "appid": 1229240,
-      "name": "Payday 3",
-      "genres": ["Action", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "1797280": {
-      "appid": 1797280,
-      "name": "Starfield",
-      "genres": ["RPG", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "1850690": {
-      "appid": 1850690,
-      "name": "Cities: Skylines II",
-      "genres": ["Simulation", "Building"],
-      "mood": ["relax", "think"]
-    },
-    "2254740": {
-      "appid": 2254740,
-      "name": "Jagged Alliance 3",
-      "genres": ["Strategy", "Tactical"],
-      "mood": ["think"]
-    },
-    "2358720": {
-      "appid": 2358720,
-      "name": "Black Myth: Wukong",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "story"]
-    },
-    "32440": {
-      "appid": 32440,
-      "name": "LEGO Star Wars: The Complete Saga",
-      "genres": ["Action", "Adventure"],
-      "mood": ["relax", "party"]
-    },
-    "920210": {
-      "appid": 920210,
-      "name": "LEGO Star Wars: The Skywalker Saga",
-      "genres": ["Action", "Adventure"],
-      "mood": ["relax", "party"]
-    },
-    "1082710": {
-      "appid": 1082710,
-      "name": "Planet Zoo",
-      "genres": ["Simulation", "Management"],
-      "mood": ["relax", "think"]
-    },
-    "493340": {
-      "appid": 493340,
-      "name": "Planet Coaster",
-      "genres": ["Simulation", "Management"],
-      "mood": ["relax", "think"]
-    },
-    "255710": {
-      "appid": 255710,
-      "name": "Cities: Skylines",
-      "genres": ["Simulation", "City Builder"],
-      "mood": ["relax", "think"]
-    },
-    "294100": {
-      "appid": 294100,
-      "name": "RimWorld",
-      "genres": ["Simulation", "Strategy"],
-      "mood": ["think"]
-    },
-    "1062090": {
-      "appid": 1062090,
-      "name": "Wobbledogs",
-      "genres": ["Simulation", "Casual"],
-      "mood": ["relax"]
-    },
-    "1449560": {
-      "appid": 1449560,
-      "name": "Core Keeper",
-      "genres": ["Survival", "Sandbox"],
-      "mood": ["relax", "party"]
-    },
-    "973760": {
-      "appid": 973760,
-      "name": "Temtem",
-      "genres": ["RPG", "MMORPG"],
-      "mood": ["relax", "party"]
-    },
-    "306020": {
-      "appid": 306020,
-      "name": "Elite Dangerous",
-      "genres": ["Space", "Simulation"],
-      "mood": ["relax", "thrill"]
-    },
-    "1814980": {
-      "appid": 1814980,
-      "name": "White Noise 2",
-      "genres": ["Horror", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "2114740": {
-      "appid": 2114740,
-      "name": "The Texas Chain Saw Massacre",
-      "genres": ["Horror", "Multiplayer"],
-      "mood": ["thrill", "party"]
-    },
-    "1667090": {
-      "appid": 1667090,
-      "name": "Propnight",
-      "genres": ["Horror", "Party"],
-      "mood": ["thrill", "party"]
-    },
-    "1256670": {
-      "appid": 1256670,
-      "name": "Among Us",
-      "genres": ["Party", "Social Deduction"],
-      "mood": ["party", "think"]
-    },
-    "2669320": {
-      "appid": 2669320,
-      "name": "Killer Klowns from Outer Space: The Game",
-      "genres": ["Horror", "Multiplayer"],
-      "mood": ["thrill", "party"]
-    },
-    "438740": {
-      "appid": 438740,
-      "name": "Vermintide 2",
-      "genres": ["Action", "Co-op"],
-      "mood": ["thrill", "party"]
-    },
-    "356190": {
-      "appid": 356190,
-      "name": "Middle-earth: Shadow of War",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "story"]
-    },
-    "241930": {
-      "appid": 241930,
-      "name": "Middle-earth: Shadow of Mordor",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "story"]
-    },
-    "1468720": {
-      "appid": 1468720,
-      "name": "Little Witch in the Woods",
-      "genres": ["Simulation", "Adventure"],
-      "mood": ["relax", "story"]
-    },
-    "1313860": {
-      "appid": 1313860,
-      "name": "Manor Lords",
-      "genres": ["Strategy", "City Builder"],
-      "mood": ["think", "relax"]
-    },
-    "365670": {
-      "appid": 365670,
-      "name": "Blackwake",
-      "genres": ["Action", "Naval"],
-      "mood": ["thrill", "party"]
-    },
-    "1506830": {
-      "appid": 1506830,
-      "name": "FIFA 23",
-      "genres": ["Sports", "Football"],
-      "mood": ["relax", "party"]
-    },
-    "2195250": {
-      "appid": 2195250,
-      "name": "EA SPORTS FC 24",
-      "genres": ["Sports", "Football"],
-      "mood": ["relax", "party"]
-    },
-    "1449200": {
-      "appid": 1449200,
-      "name": "eFootball 2024",
-      "genres": ["Sports", "Football"],
-      "mood": ["relax", "party"]
-    },
-    "418240": {
-      "appid": 418240,
-      "name": "Shadow Tactics: Blades of the Shogun",
-      "genres": ["Strategy", "Stealth"],
-      "mood": ["think"]
-    },
-    "1283740": {
-      "appid": 1283740,
-      "name": "GRIME",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "think"]
-    },
-    "1384160": {
-      "appid": 1384160,
-      "name": "Lone Echo II",
-      "genres": ["VR", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "1259420": {
-      "appid": 1259420,
-      "name": "Boneworks",
-      "genres": ["VR", "Action"],
-      "mood": ["thrill", "think"]
-    },
-    "823500": {
-      "appid": 823500,
-      "name": "Sniper Elite 5",
-      "genres": ["Action", "Stealth"],
-      "mood": ["think", "thrill"]
-    },
-    "1238080": {
-      "appid": 1238080,
-      "name": "Sniper Elite 4",
-      "genres": ["Action", "Stealth"],
-      "mood": ["think", "thrill"]
-    },
-    "6060": {
-      "appid": 6060,
-      "name": "Hitman: Blood Money",
-      "genres": ["Action", "Stealth"],
-      "mood": ["think", "thrill"]
-    },
-    "863550": {
-      "appid": 863550,
-      "name": "Hitman 2",
-      "genres": ["Action", "Stealth"],
-      "mood": ["think", "thrill"]
-    },
-    "1659420": {
-      "appid": 1659420,
-      "name": "Pizza Tower",
-      "genres": ["Platformer", "Action"],
-      "mood": ["thrill", "relax"]
-    },
-    "1145350": {
-      "appid": 1145350,
-      "name": "Hades II",
-      "genres": ["Roguelike", "Action"],
-      "mood": ["thrill", "story"]
-    },
-    "1817230": {
-      "appid": 1817230,
-      "name": "Neon White",
-      "genres": ["FPS", "Platformer"],
-      "mood": ["thrill", "story"]
-    },
-    "1895880": {
-      "appid": 1895880,
-      "name": "Ratchet & Clank: Rift Apart",
-      "genres": ["Action", "Adventure"],
-      "mood": ["thrill", "story"]
-    },
-    "1557360": {
-      "appid": 1557360,
-      "name": "Hi-Fi RUSH",
-      "genres": ["Action", "Rhythm"],
-      "mood": ["thrill", "story"]
-    },
-    "2138710": {
-      "appid": 2138710,
-      "name": "Lies of P",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "think"]
-    },
-    "1623730": {
-      "appid": 1623730,
-      "name": "Palworld",
-      "genres": ["Survival", "Adventure"],
-      "mood": ["relax", "party"]
-    },
-    "1829350": {
-      "appid": 1829350,
-      "name": "Armored Core VI: Fires of Rubicon",
-      "genres": ["Action", "Mech"],
-      "mood": ["thrill", "think"]
-    },
-    "990080": {
-      "appid": 990080,
-      "name": "Hogwarts Legacy",
-      "genres": ["RPG", "Adventure"],
-      "mood": ["story", "relax"]
-    },
-    "1086940": {
-      "appid": 1086940,
-      "name": "Baldur's Gate 3",
-      "genres": ["RPG", "Strategy"],
-      "mood": ["story", "think"]
-    },
-    "2054970": {
-      "appid": 2054970,
-      "name": "Dave the Diver",
-      "genres": ["Adventure", "Simulation"],
-      "mood": ["relax", "story"]
-    },
-    "1888930": {
-      "appid": 1888930,
-      "name": "The Last of Us Part I",
-      "genres": ["Action", "Adventure"],
-      "mood": ["story", "thrill"]
-    },
-    "2358720": {
-      "appid": 2358720,
-      "name": "Black Myth: Wukong",
-      "genres": ["Action", "RPG"],
-      "mood": ["thrill", "story"]
-    },
-    "1091500": {
-      "appid": 1091500,
-      "name": "Cyberpunk 2077",
-      "genres": ["RPG", "Action"],
-      "mood": ["story", "thrill"]
-    }
+    "570": {"appid": 570, "name": "Dota 2", "genres": ["MOBA", "Strategy"], "mood": ["think", "party"]},
+    "730": {"appid": 730, "name": "Counter-Strike 2", "genres": ["FPS", "Action"], "mood": ["thrill", "party"]},
+    "440": {"appid": 440, "name": "Team Fortress 2", "genres": ["FPS", "Action"], "mood": ["relax", "party"]},
+    "1091500": {"appid": 1091500, "name": "Cyberpunk 2077", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "292030": {"appid": 292030, "name": "The Witcher 3: Wild Hunt", "genres": ["RPG", "Adventure"], "mood": ["story", "relax"]},
+    "413150": {"appid": 413150, "name": "Stardew Valley", "genres": ["Simulation", "RPG"], "mood": ["relax"]},
+    "367520": {"appid": 367520, "name": "Hollow Knight", "genres": ["Action", "Adventure"], "mood": ["think", "thrill"]},
+    "814380": {"appid": 814380, "name": "Sekiro: Shadows Die Twice", "genres": ["Action", "Adventure"], "mood": ["thrill", "think"]},
+    "1245620": {"appid": 1245620, "name": "ELDEN RING", "genres": ["Action", "RPG"], "mood": ["thrill", "story"]},
+    "1174180": {"appid": 1174180, "name": "Red Dead Redemption 2", "genres": ["Action", "Adventure"], "mood": ["story", "relax"]},
+    "1151640": {"appid": 1151640, "name": "Horizon Zero Dawn", "genres": ["Action", "RPG"], "mood": ["story", "thrill"]},
+    "271590": {"appid": 271590, "name": "Grand Theft Auto V", "genres": ["Action", "Adventure"], "mood": ["thrill", "party"]},
+    "582010": {"appid": 582010, "name": "MONSTER HUNTER: WORLD", "genres": ["Action", "RPG"], "mood": ["thrill", "party"]},
+    "252490": {"appid": 252490, "name": "Rust", "genres": ["Survival", "Action"], "mood": ["thrill", "party"]},
+    "105600": {"appid": 105600, "name": "Terraria", "genres": ["Action", "Adventure"], "mood": ["relax", "party"]},
+    "245620": {"appid": 245620, "name": "Tropico 5", "genres": ["Strategy", "Simulation"], "mood": ["think", "relax"]},
+    "394360": {"appid": 394360, "name": "Hearts of Iron IV", "genres": ["Strategy", "Simulation"], "mood": ["think"]},
+    "281990": {"appid": 281990, "name": "Stellaris", "genres": ["Strategy", "Simulation"], "mood": ["think"]},
+    "236390": {"appid": 236390, "name": "War Thunder", "genres": ["Action", "Simulation"], "mood": ["thrill", "party"]},
+    "227300": {"appid": 227300, "name": "Euro Truck Simulator 2", "genres": ["Simulation"], "mood": ["relax"]},
+    "72850": {"appid": 72850, "name": "The Elder Scrolls V: Skyrim", "genres": ["RPG", "Adventure"], "mood": ["story", "relax"]},
+    "489830": {"appid": 489830, "name": "The Elder Scrolls Online", "genres": ["MMORPG", "RPG"], "mood": ["story", "party"]},
+    "1203220": {"appid": 1203220, "name": "NARAKA: BLADEPOINT", "genres": ["Action", "Battle Royale"], "mood": ["thrill", "party"]},
+    "578080": {"appid": 578080, "name": "PUBG: BATTLEGROUNDS", "genres": ["Battle Royale", "Action"], "mood": ["thrill", "party"]},
+    "359550": {"appid": 359550, "name": "Tom Clancy's Rainbow Six Siege", "genres": ["FPS", "Tactical"], "mood": ["think", "party"]},
+    "435150": {"appid": 435150, "name": "Divinity: Original Sin 2", "genres": ["RPG", "Strategy"], "mood": ["story", "think"]},
+    "261550": {"appid": 261550, "name": "Mount & Blade II: Bannerlord", "genres": ["Strategy", "RPG"], "mood": ["thrill", "think"]},
+    "646570": {"appid": 646570, "name": "Slay the Spire", "genres": ["Roguelike", "Strategy"], "mood": ["think", "relax"]},
+    "1086940": {"appid": 1086940, "name": "Baldur's Gate 3", "genres": ["RPG", "Strategy"], "mood": ["story", "think"]},
+    "620": {"appid": 620, "name": "Portal 2", "genres": ["Puzzle", "Adventure"], "mood": ["think"]},
+    "219740": {"appid": 219740, "name": "Don't Starve Together", "genres": ["Survival", "Adventure"], "mood": ["think", "party"]},
+    "431960": {"appid": 431960, "name": "Wallpaper Engine", "genres": ["Utility"], "mood": ["relax"]},
+    "892970": {"appid": 892970, "name": "Valheim", "genres": ["Survival", "Adventure"], "mood": ["relax", "party"]},
+    "1966720": {"appid": 1966720, "name": "Lethal Company", "genres": ["Horror", "Co-op"], "mood": ["thrill", "party"]},
+    "1172470": {"appid": 1172470, "name": "Apex Legends", "genres": ["Battle Royale", "FPS"], "mood": ["thrill", "party"]},
+    "1217060": {"appid": 1217060, "name": "Dying Light 2 Stay Human", "genres": ["Action", "Survival"], "mood": ["thrill", "story"]},
+    "1203630": {"appid": 1203630, "name": "Chivalry 2", "genres": ["Action", "Multiplayer"], "mood": ["thrill", "party"]},
+    "230410": {"appid": 230410, "name": "Warframe", "genres": ["Action", "Shooter"], "mood": ["thrill", "party"]},
+    "1599340": {"appid": 1599340, "name": "Farming Simulator 22", "genres": ["Simulation"], "mood": ["relax"]},
+    "648800": {"appid": 648800, "name": "Raft", "genres": ["Survival", "Adventure"], "mood": ["relax", "party"]},
+    "739630": {"appid": 739630, "name": "Phasmophobia", "genres": ["Horror", "Co-op"], "mood": ["thrill", "party"]},
+    "108600": {"appid": 108600, "name": "Project Zomboid", "genres": ["Survival", "Simulation"], "mood": ["think", "thrill"]},
+    "1426210": {"appid": 1426210, "name": "It Takes Two", "genres": ["Adventure", "Co-op"], "mood": ["story", "party"]},
+    "976730": {"appid": 976730, "name": "Halo: The Master Chief Collection", "genres": ["FPS", "Action"], "mood": ["thrill", "story"]},
+    "1174370": {"appid": 1174370, "name": "DEATH STRANDING", "genres": ["Action", "Adventure"], "mood": ["story", "relax"]},
+    "1145360": {"appid": 1145360, "name": "Hades", "genres": ["Roguelike", "Action"], "mood": ["thrill", "story"]},
+    "1145350": {"appid": 1145350, "name": "Hades II", "genres": ["Roguelike", "Action"], "mood": ["thrill", "story"]},
+    "1817070": {"appid": 1817070, "name": "Marvel's Spider-Man Remastered", "genres": ["Action", "Adventure"], "mood": ["thrill", "story"]},
+    "1817190": {"appid": 1817190, "name": "Marvel's Spider-Man: Miles Morales", "genres": ["Action", "Adventure"], "mood": ["thrill", "story"]},
+    "2369390": {"appid": 2369390, "name": "Tekken 8", "genres": ["Fighting", "Action"], "mood": ["thrill", "party"]},
+    "1234140": {"appid": 1234140, "name": "Yu-Gi-Oh! Master Duel", "genres": ["Card Game", "Strategy"], "mood": ["think", "party"]},
+    "1328670": {"appid": 1328670, "name": "Mass Effect Legendary Edition", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "648350": {"appid": 648350, "name": "Oxygen Not Included", "genres": ["Simulation", "Strategy"], "mood": ["think"]},
+    "782330": {"appid": 782330, "name": "DOOM Eternal", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "292120": {"appid": 292120, "name": "Subnautica", "genres": ["Survival", "Adventure"], "mood": ["story", "relax"]},
+    "848450": {"appid": 848450, "name": "Subnautica: Below Zero", "genres": ["Survival", "Adventure"], "mood": ["story", "relax"]},
+    "1623730": {"appid": 1623730, "name": "Palworld", "genres": ["Survival", "Adventure"], "mood": ["relax", "party"]},
+    "322330": {"appid": 322330, "name": "Don't Starve", "genres": ["Survival", "Adventure"], "mood": ["think", "thrill"]},
+    "383870": {"appid": 383870, "name": "Firewatch", "genres": ["Adventure", "Story"], "mood": ["story", "relax"]},
+    "1091100": {"appid": 1091100, "name": "Persona 5 Royal", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "1332010": {"appid": 1332010, "name": "Stray", "genres": ["Adventure", "Puzzle"], "mood": ["story", "relax"]},
+    "1517290": {"appid": 1517290, "name": "Battlefield 2042", "genres": ["FPS", "Action"], "mood": ["thrill", "party"]},
+    "601150": {"appid": 601150, "name": "Devil May Cry 5", "genres": ["Action", "Hack and Slash"], "mood": ["thrill"]},
+    "976310": {"appid": 976310, "name": "Mortal Kombat 11", "genres": ["Fighting", "Action"], "mood": ["thrill", "party"]},
+    "418370": {"appid": 418370, "name": "Resident Evil 7 Biohazard", "genres": ["Horror", "Action"], "mood": ["thrill", "story"]},
+    "883710": {"appid": 883710, "name": "Resident Evil 2", "genres": ["Horror", "Action"], "mood": ["thrill", "story"]},
+    "952060": {"appid": 952060, "name": "Resident Evil 3", "genres": ["Horror", "Action"], "mood": ["thrill", "story"]},
+    "1196590": {"appid": 1196590, "name": "Resident Evil Village", "genres": ["Horror", "Action"], "mood": ["thrill", "story"]},
+    "1391110": {"appid": 1391110, "name": "Resident Evil 4", "genres": ["Horror", "Action"], "mood": ["thrill", "story"]},
+    "813780": {"appid": 813780, "name": "Age of Empires II: Definitive Edition", "genres": ["Strategy", "RTS"], "mood": ["think", "party"]},
+    "1466860": {"appid": 1466860, "name": "Age of Empires IV", "genres": ["Strategy", "RTS"], "mood": ["think", "party"]},
+    "611500": {"appid": 611500, "name": "Quake Champions", "genres": ["FPS", "Action"], "mood": ["thrill", "party"]},
+    "420110": {"appid": 420110, "name": "SUPERHOT", "genres": ["FPS", "Puzzle"], "mood": ["think", "thrill"]},
+    "632360": {"appid": 632360, "name": "Risk of Rain 2", "genres": ["Roguelike", "Action"], "mood": ["thrill", "party"]},
+    "8930": {"appid": 8930, "name": "Civilization V", "genres": ["Strategy", "Turn-Based"], "mood": ["think"]},
+    "289070": {"appid": 289070, "name": "Civilization VI", "genres": ["Strategy", "Turn-Based"], "mood": ["think"]},
+    "1604030": {"appid": 1604030, "name": "V Rising", "genres": ["Survival", "Action"], "mood": ["thrill", "party"]},
+    "526870": {"appid": 526870, "name": "Satisfactory", "genres": ["Simulation", "Building"], "mood": ["think", "relax"]},
+    "427520": {"appid": 427520, "name": "Factorio", "genres": ["Simulation", "Strategy"], "mood": ["think"]},
+    "1128810": {"appid": 1128810, "name": "Kingdom Come: Deliverance", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "377160": {"appid": 377160, "name": "Fallout 4", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "1454400": {"appid": 1454400, "name": "GUILTY GEAR -STRIVE-", "genres": ["Fighting", "Action"], "mood": ["thrill", "party"]},
+    "1172380": {"appid": 1172380, "name": "STAR WARS Jedi: Fallen Order", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "1774580": {"appid": 1774580, "name": "STAR WARS Jedi: Survivor", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "381210": {"appid": 381210, "name": "Dead by Daylight", "genres": ["Horror", "Multiplayer"], "mood": ["thrill", "party"]},
+    "1237970": {"appid": 1237970, "name": "Titanfall 2", "genres": ["FPS", "Action"], "mood": ["thrill", "story"]},
+    "400": {"appid": 400, "name": "Portal", "genres": ["Puzzle", "Adventure"], "mood": ["think"]},
+    "4000": {"appid": 4000, "name": "Garry's Mod", "genres": ["Sandbox", "Simulation"], "mood": ["relax", "party"]},
+    "218620": {"appid": 218620, "name": "PAYDAY 2", "genres": ["Action", "Co-op"], "mood": ["thrill", "party"]},
+    "275850": {"appid": 275850, "name": "No Man's Sky", "genres": ["Adventure", "Survival"], "mood": ["relax", "story"]},
+    "379720": {"appid": 379720, "name": "DOOM", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "251570": {"appid": 251570, "name": "7 Days to Die", "genres": ["Survival", "Horror"], "mood": ["thrill", "party"]},
+    "374320": {"appid": 374320, "name": "DARK SOULS III", "genres": ["Action", "RPG"], "mood": ["thrill", "think"]},
+    "570940": {"appid": 570940, "name": "DARK SOULS: REMASTERED", "genres": ["Action", "RPG"], "mood": ["thrill", "think"]},
+    "236430": {"appid": 236430, "name": "DARK SOULS II", "genres": ["Action", "RPG"], "mood": ["thrill", "think"]},
+    "812140": {"appid": 812140, "name": "Assassin's Creed Odyssey", "genres": ["Action", "RPG"], "mood": ["story", "thrill"]},
+    "2208920": {"appid": 2208920, "name": "Assassin's Creed Mirage", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "582660": {"appid": 582660, "name": "Black Desert Online", "genres": ["MMORPG", "Action"], "mood": ["thrill", "party"]},
+    "552500": {"appid": 552500, "name": "Warhammer: Vermintide 2", "genres": ["Action", "Co-op"], "mood": ["thrill", "party"]},
+    "1190460": {"appid": 1190460, "name": "Warhammer 40,000: Darktide", "genres": ["Action", "Co-op"], "mood": ["thrill", "party"]},
+    "1238840": {"appid": 1238840, "name": "Warhammer 40,000: Boltgun", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "1938010": {"appid": 1938010, "name": "Warhammer 40,000: Rogue Trader", "genres": ["RPG", "Strategy"], "mood": ["story", "think"]},
+    "397540": {"appid": 397540, "name": "Borderlands 3", "genres": ["FPS", "RPG"], "mood": ["thrill", "party"]},
+    "49520": {"appid": 49520, "name": "Borderlands 2", "genres": ["FPS", "RPG"], "mood": ["thrill", "party"]},
+    "1409020": {"appid": 1409020, "name": "Tiny Tina's Wonderlands", "genres": ["FPS", "RPG"], "mood": ["thrill", "party"]},
+    "286160": {"appid": 286160, "name": "Tabletop Simulator", "genres": ["Simulation", "Strategy"], "mood": ["relax", "party"]},
+    "304930": {"appid": 304930, "name": "Unturned", "genres": ["Survival", "Zombie"], "mood": ["relax", "party"]},
+    "346110": {"appid": 346110, "name": "ARK: Survival Evolved", "genres": ["Survival", "Adventure"], "mood": ["thrill", "party"]},
+    "1928980": {"appid": 1928980, "name": "ARK: Survival Ascended", "genres": ["Survival", "Adventure"], "mood": ["thrill", "party"]},
+    "438100": {"appid": 438100, "name": "VRChat", "genres": ["Social", "VR"], "mood": ["relax", "party"]},
+    "588650": {"appid": 588650, "name": "Dead Cells", "genres": ["Roguelike", "Action"], "mood": ["thrill", "think"]},
+    "1158310": {"appid": 1158310, "name": "Crusader Kings III", "genres": ["Strategy", "Simulation"], "mood": ["think", "story"]},
+    "203770": {"appid": 203770, "name": "Crusader Kings II", "genres": ["Strategy", "Simulation"], "mood": ["think", "story"]},
+    "236850": {"appid": 236850, "name": "Europa Universalis IV", "genres": ["Strategy", "Simulation"], "mood": ["think"]},
+    "1240440": {"appid": 1240440, "name": "Halo Infinite", "genres": ["FPS", "Action"], "mood": ["thrill", "party"]},
+    "524220": {"appid": 524220, "name": "NieR:Automata", "genres": ["Action", "RPG"], "mood": ["story", "thrill"]},
+    "1113560": {"appid": 1113560, "name": "NieR Replicant", "genres": ["Action", "RPG"], "mood": ["story", "think"]},
+    "1593500": {"appid": 1593500, "name": "God of War", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "2322010": {"appid": 2322010, "name": "God of War Ragnarök", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "1282730": {"appid": 1282730, "name": "Riders Republic", "genres": ["Sports", "Racing"], "mood": ["relax", "party"]},
+    "1551360": {"appid": 1551360, "name": "Forza Horizon 5", "genres": ["Racing", "Sports"], "mood": ["relax", "party"]},
+    "1293830": {"appid": 1293830, "name": "Forza Horizon 4", "genres": ["Racing", "Sports"], "mood": ["relax", "party"]},
+    "252950": {"appid": 252950, "name": "Rocket League", "genres": ["Sports", "Racing"], "mood": ["thrill", "party"]},
+    "291550": {"appid": 291550, "name": "Brawlhalla", "genres": ["Fighting", "Action"], "mood": ["thrill", "party"]},
+    "1229380": {"appid": 1229380, "name": "Everhood", "genres": ["RPG", "Rhythm"], "mood": ["story", "think"]},
+    "774361": {"appid": 774361, "name": "Blasphemous", "genres": ["Action", "Adventure"], "mood": ["thrill", "think"]},
+    "1551020": {"appid": 1551020, "name": "Sifu", "genres": ["Action", "Fighting"], "mood": ["thrill", "think"]},
+    "244850": {"appid": 244850, "name": "Space Engineers", "genres": ["Simulation", "Sandbox"], "mood": ["think", "relax"]},
+    "1963000": {"appid": 1963000, "name": "EXOPRIMAL", "genres": ["Action", "Co-op"], "mood": ["thrill", "party"]},
+    "1229490": {"appid": 1229490, "name": "Ultrakill", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "594650": {"appid": 594650, "name": "Hunt: Showdown", "genres": ["FPS", "Horror"], "mood": ["thrill", "party"]},
+    "990080": {"appid": 990080, "name": "Hogwarts Legacy", "genres": ["RPG", "Adventure"], "mood": ["story", "relax"]},
+    "1644960": {"appid": 1644960, "name": "Cult of the Lamb", "genres": ["Roguelike", "Action"], "mood": ["relax", "think"]},
+    "1286680": {"appid": 1286680, "name": "GUNFIRE REBORN", "genres": ["FPS", "Roguelike"], "mood": ["thrill", "party"]},
+    "361420": {"appid": 361420, "name": "ASTRONEER", "genres": ["Adventure", "Sandbox"], "mood": ["relax", "party"]},
+    "460930": {"appid": 460930, "name": "Tom Clancy's Ghost Recon Wildlands", "genres": ["Action", "Shooter"], "mood": ["thrill", "party"]},
+    "1088850": {"appid": 1088850, "name": "Tom Clancy's Ghost Recon Breakpoint", "genres": ["Action", "Shooter"], "mood": ["thrill", "party"]},
+    "365590": {"appid": 365590, "name": "Tom Clancy's The Division", "genres": ["Action", "RPG"], "mood": ["thrill", "party"]},
+    "1183660": {"appid": 1183660, "name": "Tom Clancy's The Division 2", "genres": ["Action", "RPG"], "mood": ["thrill", "party"]},
+    "548430": {"appid": 548430, "name": "Deep Rock Galactic", "genres": ["FPS", "Co-op"], "mood": ["thrill", "party"]},
+    "1238810": {"appid": 1238810, "name": "Prodeus", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "250900": {"appid": 250900, "name": "The Binding of Isaac: Rebirth", "genres": ["Roguelike", "Action"], "mood": ["think", "thrill"]},
+    "1167630": {"appid": 1167630, "name": "OMORI", "genres": ["RPG", "Horror"], "mood": ["story", "think"]},
+    "311690": {"appid": 311690, "name": "Enter the Gungeon", "genres": ["Roguelike", "Action"], "mood": ["thrill", "think"]},
+    "960090": {"appid": 960090, "name": "Bloons TD 6", "genres": ["Strategy", "Tower Defense"], "mood": ["relax", "think"]},
+    "1708520": {"appid": 1708520, "name": "F1 22", "genres": ["Racing", "Sports"], "mood": ["thrill", "relax"]},
+    "2108330": {"appid": 2108330, "name": "F1 23", "genres": ["Racing", "Sports"], "mood": ["thrill", "relax"]},
+    "1293160": {"appid": 1293160, "name": "F.I.S.T.: Forged In Shadow Torch", "genres": ["Action", "Adventure"], "mood": ["thrill", "story"]},
+    "1361210": {"appid": 1361210, "name": "Inscryption", "genres": ["Card Game", "Horror"], "mood": ["think", "story"]},
+    "250320": {"appid": 250320, "name": "The Forest", "genres": ["Survival", "Horror"], "mood": ["thrill", "party"]},
+    "1847000": {"appid": 1847000, "name": "Sons Of The Forest", "genres": ["Survival", "Horror"], "mood": ["thrill", "party"]},
+    "1085660": {"appid": 1085660, "name": "Destiny 2", "genres": ["FPS", "MMORPG"], "mood": ["thrill", "party"]},
+    "1238060": {"appid": 1238060, "name": "PowerWash Simulator", "genres": ["Simulation", "Casual"], "mood": ["relax"]},
+    "1850570": {"appid": 1850570, "name": "Grounded", "genres": ["Survival", "Adventure"], "mood": ["relax", "party"]},
+    "393380": {"appid": 393380, "name": "Squad", "genres": ["FPS", "Tactical"], "mood": ["think", "party"]},
+    "686810": {"appid": 686810, "name": "Hell Let Loose", "genres": ["FPS", "Tactical"], "mood": ["think", "party"]},
+    "1366540": {"appid": 1366540, "name": "Dyson Sphere Program", "genres": ["Simulation", "Strategy"], "mood": ["think", "relax"]},
+    "290340": {"appid": 290340, "name": "Armello", "genres": ["Strategy", "Board Game"], "mood": ["think", "party"]},
+    "1063730": {"appid": 1063730, "name": "New World", "genres": ["MMORPG", "Action"], "mood": ["thrill", "party"]},
+    "812630": {"appid": 812630, "name": "Assassin's Creed Origins", "genres": ["Action", "RPG"], "mood": ["story", "thrill"]},
+    "2378900": {"appid": 2378900, "name": "Alan Wake 2", "genres": ["Horror", "Adventure"], "mood": ["story", "thrill"]},
+    "108710": {"appid": 108710, "name": "Alan Wake", "genres": ["Horror", "Adventure"], "mood": ["story", "thrill"]},
+    "750920": {"appid": 750920, "name": "Shadow of the Tomb Raider", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "391220": {"appid": 391220, "name": "Rise of the Tomb Raider", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "203160": {"appid": 203160, "name": "Tomb Raider", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "1167190": {"appid": 1167190, "name": "Trek to Yomi", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "1057090": {"appid": 1057090, "name": "Ori and the Will of the Wisps", "genres": ["Platformer", "Adventure"], "mood": ["story", "relax"]},
+    "261570": {"appid": 261570, "name": "Ori and the Blind Forest", "genres": ["Platformer", "Adventure"], "mood": ["story", "relax"]},
+    "1145310": {"appid": 1145310, "name": "Gris", "genres": ["Adventure", "Platformer"], "mood": ["relax", "story"]},
+    "774171": {"appid": 774171, "name": "Mortal Kombat 1", "genres": ["Fighting", "Action"], "mood": ["thrill", "party"]},
+    "1240320": {"appid": 1240320, "name": "Death's Door", "genres": ["Action", "Adventure"], "mood": ["think", "thrill"]},
+    "1055540": {"appid": 1055540, "name": "Carto", "genres": ["Puzzle", "Adventure"], "mood": ["relax", "think"]},
+    "1121910": {"appid": 1121910, "name": "Loop Hero", "genres": ["Roguelike", "Strategy"], "mood": ["think", "relax"]},
+    "453480": {"appid": 453480, "name": "Cuphead", "genres": ["Action", "Platformer"], "mood": ["thrill", "party"]},
+    "1840080": {"appid": 1840080, "name": "Street Fighter 6", "genres": ["Fighting", "Action"], "mood": ["thrill", "party"]},
+    "1446780": {"appid": 1446780, "name": "MONSTER HUNTER RISE", "genres": ["Action", "RPG"], "mood": ["thrill", "party"]},
+    "1222680": {"appid": 1222680, "name": "Need for Speed Heat", "genres": ["Racing", "Action"], "mood": ["thrill", "relax"]},
+    "1262580": {"appid": 1262580, "name": "Need for Speed Unbound", "genres": ["Racing", "Action"], "mood": ["thrill", "relax"]},
+    "1389990": {"appid": 1389990, "name": "Chained Echoes", "genres": ["RPG", "Turn-Based"], "mood": ["story", "think"]},
+    "1144200": {"appid": 1144200, "name": "Ready or Not", "genres": ["FPS", "Tactical"], "mood": ["think", "party"]},
+    "1794680": {"appid": 1794680, "name": "Vampire Survivors", "genres": ["Roguelike", "Action"], "mood": ["relax", "thrill"]},
+    "1942280": {"appid": 1942280, "name": "Brotato", "genres": ["Roguelike", "Action"], "mood": ["relax", "thrill"]},
+    "2054970": {"appid": 2054970, "name": "Dave the Diver", "genres": ["Adventure", "Simulation"], "mood": ["relax", "story"]},
+    "1572920": {"appid": 1572920, "name": "Tunic", "genres": ["Action", "Adventure"], "mood": ["think", "thrill"]},
+    "1509980": {"appid": 1509980, "name": "The Mortuary Assistant", "genres": ["Horror", "Simulation"], "mood": ["thrill", "story"]},
+    "1210320": {"appid": 1210320, "name": "Eastward", "genres": ["Adventure", "RPG"], "mood": ["story", "relax"]},
+    "1229870": {"appid": 1229870, "name": "Super Auto Pets", "genres": ["Strategy", "Casual"], "mood": ["relax", "think"]},
+    "1817230": {"appid": 1817230, "name": "Neon White", "genres": ["FPS", "Platformer"], "mood": ["thrill", "story"]},
+    "753640": {"appid": 753640, "name": "Outer Wilds", "genres": ["Adventure", "Mystery"], "mood": ["think", "story"]},
+    "1097150": {"appid": 1097150, "name": "Fall Guys", "genres": ["Party", "Action"], "mood": ["relax", "party"]},
+    "1985810": {"appid": 1985810, "name": "Sea of Stars", "genres": ["RPG", "Turn-Based"], "mood": ["story", "relax"]},
+    "1888930": {"appid": 1888930, "name": "The Last of Us Part I", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "594570": {"appid": 594570, "name": "Total War: WARHAMMER II", "genres": ["Strategy", "RTS"], "mood": ["think"]},
+    "1142710": {"appid": 1142710, "name": "Total War: WARHAMMER III", "genres": ["Strategy", "RTS"], "mood": ["think"]},
+    "1118200": {"appid": 1118200, "name": "Art of Rally", "genres": ["Racing", "Sports"], "mood": ["relax", "thrill"]},
+    "1017290": {"appid": 1017290, "name": "Demon Slayer: The Hinokami Chronicles", "genres": ["Action", "Fighting"], "mood": ["thrill", "story"]},
+    "356190": {"appid": 356190, "name": "Middle-earth: Shadow of War", "genres": ["Action", "Adventure"], "mood": ["thrill", "story"]},
+    "241930": {"appid": 241930, "name": "Middle-earth: Shadow of Mordor", "genres": ["Action", "Adventure"], "mood": ["thrill", "story"]},
+    "1313860": {"appid": 1313860, "name": "Manor Lords", "genres": ["Strategy", "City Builder"], "mood": ["think", "relax"]},
+    "2195250": {"appid": 2195250, "name": "EA SPORTS FC 24", "genres": ["Sports", "Football"], "mood": ["relax", "party"]},
+    "418240": {"appid": 418240, "name": "Shadow Tactics: Blades of the Shogun", "genres": ["Strategy", "Stealth"], "mood": ["think"]},
+    "1283740": {"appid": 1283740, "name": "GRIME", "genres": ["Action", "Adventure"], "mood": ["thrill", "think"]},
+    "823500": {"appid": 823500, "name": "Sniper Elite 5", "genres": ["Action", "Stealth"], "mood": ["think", "thrill"]},
+    "863550": {"appid": 863550, "name": "Hitman 2", "genres": ["Action", "Stealth"], "mood": ["think", "thrill"]},
+    "1659420": {"appid": 1659420, "name": "Pizza Tower", "genres": ["Platformer", "Action"], "mood": ["thrill", "relax"]},
+    "1895880": {"appid": 1895880, "name": "Ratchet & Clank: Rift Apart", "genres": ["Action", "Adventure"], "mood": ["thrill", "story"]},
+    "1971870": {"appid": 1971870, "name": "Ghostrunner 2", "genres": ["Action", "FPS"], "mood": ["thrill"]},
+    "1139900": {"appid": 1139900, "name": "Ghostrunner", "genres": ["Action", "FPS"], "mood": ["thrill"]},
+    "1674420": {"appid": 1674420, "name": "Return to Monkey Island", "genres": ["Adventure", "Puzzle"], "mood": ["story", "relax"]},
+    "1675300": {"appid": 1675300, "name": "Returnal", "genres": ["Roguelike", "Shooter"], "mood": ["thrill", "think"]},
+    "1770520": {"appid": 1770520, "name": "Pentiment", "genres": ["Adventure", "RPG"], "mood": ["story", "think"]},
+    "1966800": {"appid": 1966800, "name": "High on Life", "genres": ["FPS", "Adventure"], "mood": ["thrill", "story"]},
+    "1850510": {"appid": 1850510, "name": "Against the Storm", "genres": ["Strategy", "Roguelike"], "mood": ["think", "relax"]},
+    "1568590": {"appid": 1568590, "name": "Dredge", "genres": ["Adventure", "Fishing"], "mood": ["relax", "story"]},
+    "2161700": {"appid": 2161700, "name": "SANABI", "genres": ["Action", "Platformer"], "mood": ["thrill", "story"]},
+    "2138710": {"appid": 2138710, "name": "Lies of P", "genres": ["Action", "RPG"], "mood": ["thrill", "think"]},
+    "2103140": {"appid": 2103140, "name": "Lords of the Fallen", "genres": ["Action", "RPG"], "mood": ["thrill", "think"]},
+    "1659040": {"appid": 1659040, "name": "Party Animals", "genres": ["Party", "Action"], "mood": ["party", "relax"]},
+    "1229240": {"appid": 1229240, "name": "Payday 3", "genres": ["Action", "Co-op"], "mood": ["thrill", "party"]},
+    "1797280": {"appid": 1797280, "name": "Starfield", "genres": ["RPG", "Adventure"], "mood": ["story", "relax"]},
+    "1850690": {"appid": 1850690, "name": "Cities: Skylines II", "genres": ["Simulation", "Building"], "mood": ["relax", "think"]},
+    "2358720": {"appid": 2358720, "name": "Black Myth: Wukong", "genres": ["Action", "RPG"], "mood": ["thrill", "story"]},
+    "920210": {"appid": 920210, "name": "LEGO Star Wars: The Skywalker Saga", "genres": ["Action", "Adventure"], "mood": ["relax", "party"]},
+    "1082710": {"appid": 1082710, "name": "Planet Zoo", "genres": ["Simulation", "Management"], "mood": ["relax", "think"]},
+    "493340": {"appid": 493340, "name": "Planet Coaster", "genres": ["Simulation", "Management"], "mood": ["relax", "think"]},
+    "255710": {"appid": 255710, "name": "Cities: Skylines", "genres": ["Simulation", "City Builder"], "mood": ["relax", "think"]},
+    "294100": {"appid": 294100, "name": "RimWorld", "genres": ["Simulation", "Strategy"], "mood": ["think"]},
+    "1449560": {"appid": 1449560, "name": "Core Keeper", "genres": ["Survival", "Sandbox"], "mood": ["relax", "party"]},
+    "306020": {"appid": 306020, "name": "Elite Dangerous", "genres": ["Space", "Simulation"], "mood": ["relax", "thrill"]},
+    "2114740": {"appid": 2114740, "name": "The Texas Chain Saw Massacre", "genres": ["Horror", "Multiplayer"], "mood": ["thrill", "party"]},
+    "1256670": {"appid": 1256670, "name": "Among Us", "genres": ["Party", "Social Deduction"], "mood": ["party", "think"]},
+    "1029690": {"appid": 1029690, "name": "Bright Memory: Infinite", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "1557360": {"appid": 1557360, "name": "Hi-Fi RUSH", "genres": ["Action", "Rhythm"], "mood": ["thrill", "story"]},
+    "1829350": {"appid": 1829350, "name": "Armored Core VI: Fires of Rubicon", "genres": ["Action", "Mech"], "mood": ["thrill", "think"]},
+    "1462040": {"appid": 1462040, "name": "Rogue Legacy 2", "genres": ["Roguelike", "Platformer"], "mood": ["thrill", "think"]},
+    "774801": {"appid": 774801, "name": "Blasphemous 2", "genres": ["Action", "Adventure"], "mood": ["thrill", "think"]},
+    "1313140": {"appid": 1313140, "name": "Unrailed!", "genres": ["Co-op", "Party"], "mood": ["party", "relax"]},
+    "22380": {"appid": 22380, "name": "Fallout: New Vegas", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "22300": {"appid": 22300, "name": "Fallout 3", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "22370": {"appid": 22370, "name": "Fallout 3 GOTY", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "377160": {"appid": 377160, "name": "Fallout 4", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "611670": {"appid": 611670, "name": "Fallout 76", "genres": ["RPG", "Multiplayer"], "mood": ["story", "party"]},
+    "22490": {"appid": 22490, "name": "Fallout: New Vegas Ultimate", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "39510": {"appid": 39510, "name": "Gothic II", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "65540": {"appid": 65540, "name": "Gothic 3", "genres": ["RPG", "Adventure"], "mood": ["story", "relax"]},
+    "6060": {"appid": 6060, "name": "Gothic", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "359320": {"appid": 359320, "name": "Elite Dangerous: Horizons", "genres": ["Space", "Simulation"], "mood": ["relax", "thrill"]},
+    "220200": {"appid": 220200, "name": "Kerbal Space Program", "genres": ["Simulation", "Space"], "mood": ["think", "relax"]},
+    "954850": {"appid": 954850, "name": "Kerbal Space Program 2", "genres": ["Simulation", "Space"], "mood": ["think", "relax"]},
+    "578650": {"appid": 578650, "name": "The Outer Worlds", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "238960": {"appid": 238960, "name": "Path of Exile", "genres": ["Action", "RPG"], "mood": ["thrill", "think"]},
+    "1659360": {"appid": 1659360, "name": "Path of Exile 2", "genres": ["Action", "RPG"], "mood": ["thrill", "think"]},
+    "1948280": {"appid": 1948280, "name": "Diablo IV", "genres": ["Action", "RPG"], "mood": ["thrill", "party"]},
+    "39140": {"appid": 39140, "name": "FINAL FANTASY VII", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "1462570": {"appid": 1462570, "name": "FINAL FANTASY VII REMAKE", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "1382330": {"appid": 1382330, "name": "Persona 4 Golden", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "1687950": {"appid": 1687950, "name": "Persona 3 Reload", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "1113000": {"appid": 1113000, "name": "Persona 5 Strikers", "genres": ["Action", "RPG"], "mood": ["thrill", "story"]},
+    "637650": {"appid": 637650, "name": "FINAL FANTASY XV", "genres": ["RPG", "Action"], "mood": ["story", "thrill"]},
+    "1240060": {"appid": 1240060, "name": "FINAL FANTASY XIV Online", "genres": ["MMORPG", "RPG"], "mood": ["story", "party"]},
+    "312060": {"appid": 312060, "name": "FINAL FANTASY X/X-2 HD Remaster", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "619150": {"appid": 619150, "name": "FINAL FANTASY XII THE ZODIAC AGE", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "1096900": {"appid": 1096900, "name": "FINAL FANTASY XVI", "genres": ["Action", "RPG"], "mood": ["story", "thrill"]},
+    "1289310": {"appid": 1289310, "name": "Disco Elysium", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "1170760": {"appid": 1170760, "name": "Disco Elysium - The Final Cut", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "1282100": {"appid": 1282100, "name": "Remnant: From the Ashes", "genres": ["Action", "RPG"], "mood": ["thrill", "party"]},
+    "1282110": {"appid": 1282110, "name": "Remnant II", "genres": ["Action", "RPG"], "mood": ["thrill", "party"]},
+    "362490": {"appid": 362490, "name": "Kingdom Hearts HD 1.5+2.5 ReMIX", "genres": ["RPG", "Action"], "mood": ["story", "relax"]},
+    "2552430": {"appid": 2552430, "name": "KINGDOM HEARTS III", "genres": ["Action", "RPG"], "mood": ["story", "thrill"]},
+    "601510": {"appid": 601510, "name": "Dragon Ball FighterZ", "genres": ["Fighting", "Action"], "mood": ["thrill", "party"]},
+    "851850": {"appid": 851850, "name": "DRAGON BALL Z: KAKAROT", "genres": ["Action", "RPG"], "mood": ["story", "thrill"]},
+    "1790600": {"appid": 1790600, "name": "Dragon Ball: Sparking! Zero", "genres": ["Fighting", "Action"], "mood": ["thrill", "party"]},
+    "1498570": {"appid": 1498570, "name": "DRAGON QUEST XI S", "genres": ["RPG", "Adventure"], "mood": ["story", "relax"]},
+    "1817190": {"appid": 1817190, "name": "OCTOPATH TRAVELER", "genres": ["RPG", "Turn-Based"], "mood": ["story", "think"]},
+    "1971660": {"appid": 1971660, "name": "OCTOPATH TRAVELER II", "genres": ["RPG", "Turn-Based"], "mood": ["story", "think"]},
+    "1245430": {"appid": 1245430, "name": "Bravely Default II", "genres": ["RPG", "Turn-Based"], "mood": ["story", "think"]},
+    "1446750": {"appid": 1446750, "name": "Tales of Arise", "genres": ["Action", "RPG"], "mood": ["story", "thrill"]},
+    "738540": {"appid": 738540, "name": "Tales of Vesperia", "genres": ["Action", "RPG"], "mood": ["story", "relax"]},
+    "1139560": {"appid": 1139560, "name": "Trials of Mana", "genres": ["Action", "RPG"], "mood": ["story", "relax"]},
+    "532030": {"appid": 532030, "name": "Yakuza 0", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "638970": {"appid": 638970, "name": "Yakuza Kiwami", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "927380": {"appid": 927380, "name": "Yakuza Kiwami 2", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "1088790": {"appid": 1088790, "name": "Yakuza: Like a Dragon", "genres": ["RPG", "Adventure"], "mood": ["story", "relax"]},
+    "1330310": {"appid": 1330310, "name": "Like a Dragon Gaiden", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "2072450": {"appid": 2072450, "name": "Like a Dragon: Infinite Wealth", "genres": ["RPG", "Adventure"], "mood": ["story", "relax"]},
+    "1151340": {"appid": 1151340, "name": "Fallout 4 VR", "genres": ["VR", "RPG"], "mood": ["story", "thrill"]},
+    "611660": {"appid": 611660, "name": "Skyrim VR", "genres": ["VR", "RPG"], "mood": ["story", "relax"]},
+    "546560": {"appid": 546560, "name": "Half-Life: Alyx", "genres": ["VR", "FPS"], "mood": ["thrill", "story"]},
+    "629730": {"appid": 629730, "name": "Blade & Sorcery", "genres": ["VR", "Action"], "mood": ["thrill"]},
+    "1233570": {"appid": 1233570, "name": "Beat Saber", "genres": ["VR", "Rhythm"], "mood": ["relax", "thrill"]},
+    "617830": {"appid": 617830, "name": "SUPERHOT VR", "genres": ["VR", "FPS"], "mood": ["think", "thrill"]},
+    "719950": {"appid": 719950, "name": "Arizona Sunshine", "genres": ["VR", "Shooter"], "mood": ["thrill", "party"]},
+    "1638730": {"appid": 1638730, "name": "Arizona Sunshine 2", "genres": ["VR", "Shooter"], "mood": ["thrill", "party"]},
+    "1249190": {"appid": 1249190, "name": "BONELAB", "genres": ["VR", "Action"], "mood": ["thrill", "think"]},
+    "250820": {"appid": 250820, "name": "SteamVR", "genres": ["VR", "Utility"], "mood": ["relax"]},
+    "555160": {"appid": 555160, "name": "Phasmophobia VR", "genres": ["VR", "Horror"], "mood": ["thrill", "party"]},
+    "448280": {"appid": 448280, "name": "Job Simulator", "genres": ["VR", "Simulation"], "mood": ["relax"]},
+    "867200": {"appid": 867200, "name": "Vacation Simulator", "genres": ["VR", "Simulation"], "mood": ["relax"]},
+    "1426040": {"appid": 1426040, "name": "Lies Beneath", "genres": ["VR", "Horror"], "mood": ["thrill", "story"]},
+    "823130": {"appid": 823130, "name": "Divinity: Original Sin 2 - Divine Edition", "genres": ["RPG", "Strategy"], "mood": ["story", "think"]},
+    "1486630": {"appid": 1486630, "name": "Biomutant", "genres": ["Action", "RPG"], "mood": ["thrill", "relax"]},
+    "287700": {"appid": 287700, "name": "Metal Gear Solid V: The Phantom Pain", "genres": ["Action", "Stealth"], "mood": ["story", "thrill"]},
+    "311340": {"appid": 311340, "name": "Metal Gear Solid V: Ground Zeroes", "genres": ["Action", "Stealth"], "mood": ["story", "thrill"]},
+    "508440": {"appid": 508440, "name": "Metal Gear Rising: Revengeance", "genres": ["Action", "Hack and Slash"], "mood": ["thrill"]},
+    "275810": {"appid": 275810, "name": "Celeste", "genres": ["Platformer", "Adventure"], "mood": ["think", "story"]},
+    "1205230": {"appid": 1205230, "name": "Lunacid", "genres": ["Action", "Adventure"], "mood": ["think", "thrill"]},
+    "1190000": {"appid": 1190000, "name": "PRODEUS", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "1258790": {"appid": 1258790, "name": "Turbo Overkill", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "307690": {"appid": 307690, "name": "Sleeping Dogs", "genres": ["Action", "Adventure"], "mood": ["thrill", "story"]},
+    "105000": {"appid": 105000, "name": "Just Cause 2", "genres": ["Action", "Adventure"], "mood": ["thrill", "relax"]},
+    "225540": {"appid": 225540, "name": "Just Cause 3", "genres": ["Action", "Adventure"], "mood": ["thrill", "relax"]},
+    "517630": {"appid": 517630, "name": "Just Cause 4", "genres": ["Action", "Adventure"], "mood": ["thrill", "relax"]},
+    "460790": {"appid": 460790, "name": "Bayonetta", "genres": ["Action", "Hack and Slash"], "mood": ["thrill"]},
+    "582010": {"appid": 582010, "name": "Monster Hunter: World", "genres": ["Action", "RPG"], "mood": ["thrill", "party"]},
+    "1449850": {"appid": 1449850, "name": "Monster Hunter Stories 2", "genres": ["RPG", "Turn-Based"], "mood": ["story", "relax"]},
+    "1456030": {"appid": 1456030, "name": "Endoparasitic", "genres": ["Horror", "Action"], "mood": ["thrill", "think"]},
+    "1966900": {"appid": 1966900, "name": "Buckshot Roulette", "genres": ["Horror", "Puzzle"], "mood": ["thrill", "think"]},
+    "1261820": {"appid": 1261820, "name": "Choo-Choo Charles", "genres": ["Horror", "Adventure"], "mood": ["thrill"]},
+    "1286040": {"appid": 1286040, "name": "GTFO", "genres": ["FPS", "Horror"], "mood": ["thrill", "party"]},
+    "813230": {"appid": 813230, "name": "Amnesia: Rebirth", "genres": ["Horror", "Adventure"], "mood": ["thrill", "story"]},
+    "57300": {"appid": 57300, "name": "Amnesia: The Dark Descent", "genres": ["Horror", "Adventure"], "mood": ["thrill", "story"]},
+    "270810": {"appid": 270810, "name": "SOMA", "genres": ["Horror", "Adventure"], "mood": ["story", "think"]},
+    "282070": {"appid": 282070, "name": "This War of Mine", "genres": ["Survival", "Strategy"], "mood": ["think", "story"]},
+    "285920": {"appid": 285920, "name": "LISA", "genres": ["RPG", "Adventure"], "mood": ["story", "think"]},
+    "387290": {"appid": 387290, "name": "Darkwood", "genres": ["Horror", "Survival"], "mood": ["thrill", "think"]},
+    "113300": {"appid": 113300, "name": "Receiver", "genres": ["FPS", "Simulation"], "mood": ["think", "thrill"]},
+    "1129580": {"appid": 1129580, "name": "Gunner, HEAT, PC!", "genres": ["Simulation", "Strategy"], "mood": ["think", "thrill"]},
+    "1091800": {"appid": 1091800, "name": "Spiritfarer", "genres": ["Adventure", "Simulation"], "mood": ["story", "relax"]},
+    "305620": {"appid": 305620, "name": "The Long Dark", "genres": ["Survival", "Adventure"], "mood": ["think", "relax"]},
+    "1062830": {"appid": 1062830, "name": "Pathfinder: Wrath of the Righteous", "genres": ["RPG", "Strategy"], "mood": ["story", "think"]},
+    "640820": {"appid": 640820, "name": "Pathfinder: Kingmaker", "genres": ["RPG", "Strategy"], "mood": ["story", "think"]},
+    "812570": {"appid": 812570, "name": "Pillars of Eternity II: Deadfire", "genres": ["RPG", "Strategy"], "mood": ["story", "think"]},
+    "291650": {"appid": 291650, "name": "Pillars of Eternity", "genres": ["RPG", "Strategy"], "mood": ["story", "think"]},
+    "466560": {"appid": 466560, "name": "Tyranny", "genres": ["RPG", "Strategy"], "mood": ["story", "think"]},
+    "251610": {"appid": 251610, "name": "Transistor", "genres": ["Action", "RPG"], "mood": ["story", "think"]},
+    "107100": {"appid": 107100, "name": "Bastion", "genres": ["Action", "RPG"], "mood": ["story", "thrill"]},
+    "590380": {"appid": 590380, "name": "Pyre", "genres": ["RPG", "Sports"], "mood": ["story", "think"]},
+    "242920": {"appid": 242920, "name": "Banished", "genres": ["Simulation", "Strategy"], "mood": ["think", "relax"]},
+    "333420": {"appid": 333420, "name": "ABZU", "genres": ["Adventure", "Exploration"], "mood": ["relax", "story"]},
+    "319630": {"appid": 319630, "name": "Life is Strange", "genres": ["Adventure", "Story"], "mood": ["story", "think"]},
+    "554620": {"appid": 554620, "name": "Life is Strange: Before the Storm", "genres": ["Adventure", "Story"], "mood": ["story", "think"]},
+    "936790": {"appid": 936790, "name": "Life is Strange 2", "genres": ["Adventure", "Story"], "mood": ["story", "think"]},
+    "1265920": {"appid": 1265920, "name": "Life is Strange: True Colors", "genres": ["Adventure", "Story"], "mood": ["story", "think"]},
+    "250560": {"appid": 250560, "name": "Plague Inc: Evolved", "genres": ["Strategy", "Simulation"], "mood": ["think"]},
+    "394310": {"appid": 394310, "name": "Rebel Galaxy", "genres": ["Space", "Action"], "mood": ["relax", "thrill"]},
+    "822000": {"appid": 822000, "name": "Rebel Galaxy Outlaw", "genres": ["Space", "Action"], "mood": ["relax", "thrill"]},
+    "244160": {"appid": 244160, "name": "X3: Terran Conflict", "genres": ["Space", "Simulation"], "mood": ["think", "relax"]},
+    "392160": {"appid": 392160, "name": "X4: Foundations", "genres": ["Space", "Simulation"], "mood": ["think", "relax"]},
+    "363970": {"appid": 363970, "name": "Clicker Heroes", "genres": ["Idle", "Casual"], "mood": ["relax"]},
+    "873110": {"appid": 873110, "name": "Thronebreaker: The Witcher Tales", "genres": ["Card Game", "RPG"], "mood": ["story", "think"]},
+    "232040": {"appid": 232040, "name": "Guns of Icarus Online", "genres": ["Action", "Co-op"], "mood": ["thrill", "party"]},
+    "464340": {"appid": 464340, "name": "Quern - Undying Thoughts", "genres": ["Puzzle", "Adventure"], "mood": ["think", "relax"]},
+    "465950": {"appid": 465950, "name": "Azmith", "genres": ["Adventure", "Puzzle"], "mood": ["think", "relax"]},
+    "414340": {"appid": 414340, "name": "Hellblade: Senua's Sacrifice", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "994280": {"appid": 994280, "name": "Senua's Saga: Hellblade II", "genres": ["Action", "Adventure"], "mood": ["story", "thrill"]},
+    "257850": {"appid": 257850, "name": "Hyper Light Drifter", "genres": ["Action", "Adventure"], "mood": ["thrill", "think"]},
+    "1794680": {"appid": 1794680, "name": "Vampire Survivors", "genres": ["Roguelike", "Action"], "mood": ["relax", "thrill"]},
+    "1730170": {"appid": 1730170, "name": "20 Minutes Till Dawn", "genres": ["Roguelike", "Shooter"], "mood": ["thrill", "relax"]},
+    "1059550": {"appid": 1059550, "name": "DUSK", "genres": ["FPS", "Horror"], "mood": ["thrill"]},
+    "1012970": {"appid": 1012970, "name": "AMID EVIL", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "893620": {"appid": 893620, "name": "WRATH: Aeon of Ruin", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "556530": {"appid": 556530, "name": "World War 3", "genres": ["FPS", "Multiplayer"], "mood": ["thrill", "party"]},
+    "221910": {"appid": 221910, "name": "The Stanley Parable", "genres": ["Adventure", "Story"], "mood": ["think", "relax"]},
+    "1703340": {"appid": 1703340, "name": "The Stanley Parable: Ultra Deluxe", "genres": ["Adventure", "Story"], "mood": ["think", "relax"]},
+    "219890": {"appid": 219890, "name": "Antichamber", "genres": ["Puzzle", "Adventure"], "mood": ["think"]},
+    "257510": {"appid": 257510, "name": "The Talos Principle", "genres": ["Puzzle", "Adventure"], "mood": ["think"]},
+    "835960": {"appid": 835960, "name": "The Talos Principle 2", "genres": ["Puzzle", "Adventure"], "mood": ["think", "story"]},
+    "210970": {"appid": 210970, "name": "The Witness", "genres": ["Puzzle", "Adventure"], "mood": ["think", "relax"]},
+    "475550": {"appid": 475550, "name": "Baba Is You", "genres": ["Puzzle", "Strategy"], "mood": ["think"]},
+    "200900": {"appid": 200900, "name": "Limbo", "genres": ["Puzzle", "Platformer"], "mood": ["think", "story"]},
+    "414190": {"appid": 414190, "name": "INSIDE", "genres": ["Puzzle", "Platformer"], "mood": ["think", "story"]},
+    "427730": {"appid": 427730, "name": "A Way Out", "genres": ["Adventure", "Co-op"], "mood": ["story", "party"]},
+    "601430": {"appid": 601430, "name": "Sea of Thieves", "genres": ["Adventure", "Multiplayer"], "mood": ["party", "relax"]},
+    "1466640": {"appid": 1466640, "name": "Icarus", "genres": ["Survival", "Co-op"], "mood": ["thrill", "party"]},
+    "774241": {"appid": 774241, "name": "Hood: Outlaws & Legends", "genres": ["Action", "Multiplayer"], "mood": ["thrill", "party"]},
+    "493900": {"appid": 493900, "name": "Stick Fight: The Game", "genres": ["Fighting", "Party"], "mood": ["party", "relax"]},
+    "477160": {"appid": 477160, "name": "Human: Fall Flat", "genres": ["Puzzle", "Party"], "mood": ["relax", "party"]},
+    "587620": {"appid": 587620, "name": "Okami HD", "genres": ["Action", "Adventure"], "mood": ["story", "relax"]},
+    "233130": {"appid": 233130, "name": "Shadow Warrior", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "324800": {"appid": 324800, "name": "Shadow Warrior 2", "genres": ["FPS", "Action"], "mood": ["thrill", "party"]},
+    "1036890": {"appid": 1036890, "name": "Shadow Warrior 3", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "274920": {"appid": 274920, "name": "Broforce", "genres": ["Action", "Platformer"], "mood": ["thrill", "party"]},
+    "268500": {"appid": 268500, "name": "Xcom 2", "genres": ["Strategy", "Tactical"], "mood": ["think"]},
+    "200510": {"appid": 200510, "name": "XCOM: Enemy Unknown", "genres": ["Strategy", "Tactical"], "mood": ["think"]},
+    "1029690": {"appid": 1029690, "name": "Bright Memory: Infinite", "genres": ["FPS", "Action"], "mood": ["thrill"]},
+    "457840": {"appid": 457840, "name": "Oxygen Not Included", "genres": ["Simulation", "Strategy"], "mood": ["think"]},
+    "386360": {"appid": 386360, "name": "SMITE", "genres": ["MOBA", "Action"], "mood": ["thrill", "party"]},
+    "305260": {"appid": 305260, "name": "Stranded Deep", "genres": ["Survival", "Adventure"], "mood": ["relax", "thrill"]},
+    "262060": {"appid": 262060, "name": "Darkest Dungeon", "genres": ["Roguelike", "RPG"], "mood": ["think", "thrill"]},
+    "1940340": {"appid": 1940340, "name": "Darkest Dungeon II", "genres": ["Roguelike", "RPG"], "mood": ["think", "thrill"]},
+    "594650": {"appid": 594650, "name": "Hunt: Showdown", "genres": ["FPS", "Horror"], "mood": ["thrill", "party"]},
+    "1942130": {"appid": 1942130, "name": "Ixion", "genres": ["Simulation", "Strategy"], "mood": ["think"]},
+    "588430": {"appid": 588430, "name": "Frostpunk", "genres": ["Strategy", "Simulation"], "mood": ["think", "story"]},
+    "1601580": {"appid": 1601580, "name": "Frostpunk 2", "genres": ["Strategy", "Simulation"], "mood": ["think", "story"]},
+    "200510": {"appid": 200510, "name": "XCOM: Enemy Unknown", "genres": ["Strategy", "Tactical"], "mood": ["think"]},
+    "991950": {"appid": 991950, "name": "GTFO", "genres": ["FPS", "Co-op"], "mood": ["thrill", "party"]},
+    "606150": {"appid": 606150, "name": "American Truck Simulator", "genres": ["Simulation"], "mood": ["relax"]},
+    "1172620": {"appid": 1172620, "name": "Sea of Thieves 2023", "genres": ["Adventure", "Multiplayer"], "mood": ["party", "relax"]},
+    "2141910": {"appid": 2141910, "name": "Enshrouded", "genres": ["Survival", "RPG"], "mood": ["relax", "party"]},
+    "1517290": {"appid": 1517290, "name": "Battlefield 2042", "genres": ["FPS", "Action"], "mood": ["thrill", "party"]},
+    "2406770": {"appid": 2406770, "name": "Warhammer 40,000: Space Marine 2", "genres": ["Action", "Shooter"], "mood": ["thrill", "party"]},
+    "12210": {"appid": 12210, "name": "Grand Theft Auto IV", "genres": ["Action", "Adventure"], "mood": ["thrill", "story"]},
+    "1174620": {"appid": 1174620, "name": "Red Dead Online", "genres": ["Action", "Multiplayer"], "mood": ["relax", "party"]},
+    "1466640": {"appid": 1466640, "name": "Icarus", "genres": ["Survival", "Co-op"], "mood": ["thrill", "party"]},
+    "1237950": {"appid": 1237950, "name": "PowerWash Simulator", "genres": ["Simulation", "Casual"], "mood": ["relax"]},
+    "2161980": {"appid": 2161980, "name": "The Outlast Trials", "genres": ["Horror", "Co-op"], "mood": ["thrill", "party"]},
+    "238320": {"appid": 238320, "name": "Outlast", "genres": ["Horror", "Adventure"], "mood": ["thrill"]},
+    "414700": {"appid": 414700, "name": "Outlast 2", "genres": ["Horror", "Adventure"], "mood": ["thrill"]},
+    "319050": {"appid": 319050, "name": "Hand of Fate", "genres": ["Roguelike", "Action"], "mood": ["thrill", "think"]},
+    "456670": {"appid": 456670, "name": "Hand of Fate 2", "genres": ["Roguelike", "Action"], "mood": ["thrill", "think"]},
+    "1316030": {"appid": 1316030, "name": "A Plague Tale: Requiem", "genres": ["Adventure", "Action"], "mood": ["story", "thrill"]},
+    "752590": {"appid": 752590, "name": "A Plague Tale: Innocence", "genres": ["Adventure", "Action"], "mood": ["story", "thrill"]},
+    "1326470": {"appid": 1326470, "name": "Sons of the Forest", "genres": ["Survival", "Horror"], "mood": ["thrill", "party"]},
+    "1284760": {"appid": 1284760, "name": "Dorfromantik", "genres": ["Puzzle", "Casual"], "mood": ["relax"]},
+    "548050": {"appid": 548050, "name": "Moonlighter", "genres": ["Action", "RPG"], "mood": ["relax", "thrill"]},
+    "239350": {"appid": 239350, "name": "SpeedRunners", "genres": ["Racing", "Party"], "mood": ["thrill", "party"]},
+    "212500": {"appid": 212500, "name": "Viscera Cleanup Detail", "genres": ["Simulation", "Casual"], "mood": ["relax"]},
+    "244870": {"appid": 244870, "name": "Electronic Super Joy", "genres": ["Platformer", "Action"], "mood": ["thrill"]},
+    "255520": {"appid": 255520, "name": "Viscera Cleanup Detail: Santa's Rampage", "genres": ["Simulation", "Casual"], "mood": ["relax"]},
+    "204300": {"appid": 204300, "name": "Awesomenauts", "genres": ["MOBA", "Platformer"], "mood": ["thrill", "party"]},
+    "252950": {"appid": 252950, "name": "Rocket League", "genres": ["Sports", "Racing"], "mood": ["thrill", "party"]},
+    "1104520": {"appid": 1104520, "name": "Paint the Town Red", "genres": ["Action", "Roguelike"], "mood": ["thrill"]},
+    "1091190": {"appid": 1091190, "name": "Before We Leave", "genres": ["Simulation", "Strategy"], "mood": ["relax", "think"]},
+    "1263850": {"appid": 1263850, "name": "Unpacking", "genres": ["Puzzle", "Casual"], "mood": ["relax"]},
+    "1030210": {"appid": 1030210, "name": "Strange Brigade", "genres": ["Action", "Co-op"], "mood": ["thrill", "party"]},
+    "976780": {"appid": 976780, "name": "Northgard", "genres": ["Strategy", "RTS"], "mood": ["think"]},
+    "330840": {"appid": 330840, "name": "BattleBlock Theater", "genres": ["Platformer", "Co-op"], "mood": ["party", "relax"]},
+    "204180": {"appid": 204180, "name": "Castle Crashers", "genres": ["Action", "Co-op"], "mood": ["thrill", "party"]}
   }
 }
