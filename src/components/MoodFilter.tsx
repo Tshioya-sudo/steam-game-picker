@@ -47,6 +47,10 @@ export function MoodFilter({ selectedMood, onSelect, moodCounts }: MoodFilterPro
           {MOOD_OPTIONS.find((m) => m.id === selectedMood)?.description}
         </p>
       )}
+
+      <p className="text-xs text-steam-text/50 text-center mt-2">
+        ※ 全てのゲームが分類されているわけではありません（随時追加中）
+      </p>
     </div>
   );
 }

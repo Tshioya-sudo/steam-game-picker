@@ -1,13 +1,22 @@
 # 次回作業メモ
 
-最終更新: 2025年1月26日
+最終更新: 2025年1月27日
 
-## 本日完了した作業
+## 本日（1/27）完了した作業
+
+- [x] game_metadata.jsonの大幅拡充（428本 → **1,004本**）
+  - +576本の人気Steamゲームを追加
+  - FPS、RPG、アクション、ストラテジー、レーシング、ホラー、パズル、インディーなど網羅
+  - 各ゲームにジャンルとムード（relax/thrill/think/story/party）を設定
+- [x] GitHubへプッシュ（コミット: `25f9a48`）
+- [x] Vercel自動デプロイ完了
+
+## 前回（1/26）完了した作業
 
 - [x] プライバシーポリシーページ (`/privacy`)
 - [x] 利用規約ページ (`/terms`)
 - [x] このサイトについてページ (`/about`)
-- [x] Google Analytics連携 (`GoogleAnalytics.tsx`)
+- [x] Google Analytics連携 (`GoogleAnalytics.tsx`) - 測定ID: G-KJYPSK557X
 - [x] 使い方ガイドページ (`/guide`)
 - [x] FAQページ (`/faq`)
 - [x] Steam ID確認方法ページ (`/howto-steamid`)
@@ -27,18 +36,18 @@
 | `/faq` | よくある質問 |
 | `/howto-steamid` | Steam ID確認方法 |
 
-## 次回やるべき作業
+## 次回やるべき作業候補
 
 ### 優先度高
 
-1. **Google Analyticsの動作確認**
-   - Vercelで再デプロイ後、リアルタイムレポートで確認
-   - 環境変数 `NEXT_PUBLIC_GA_ID` が正しく設定されているか確認
-   - 広告ブロッカーを無効にしてテスト
-
-2. **Amazonアソシエイト審査申請**
+1. **Amazonアソシエイト審査申請**
    - 現在9ページあり、コンテンツ量は十分
    - 申請URL: https://affiliate.amazon.co.jp/
+   - 審査には数日〜1週間程度かかる
+
+2. **Google Analyticsの確認**
+   - リアルタイムレポートでアクセス状況を確認
+   - 測定ID: G-KJYPSK557X（ハードコード済み）
 
 ### 優先度中
 
@@ -46,29 +55,31 @@
    - ゲーミングデバイス紹介ページの作成
    - 結果ページにおすすめコントローラーなどのリンク追加
 
-4. **game_metadata.jsonの拡充**
-   - 現在約400本 → 目標1,000本以上
-   - 「気分で選ぶ」モードの精度向上
+4. **UI/UX改善案**
+   - 抽選履歴の表示機能
+   - お気に入り/除外リスト機能
+   - ジャンル別フィルター機能
 
 ### 優先度低
 
-5. **機能追加案**
-   - 抽選履歴の表示
-   - お気に入り/除外リスト
-   - ジャンルフィルター
+5. **追加機能案**
+   - PWA化（オフライン対応）
+   - SNSシェア機能の強化
+   - 多言語対応（英語）
 
-6. **PWA化**
-   - オフライン対応（ただしAPI依存のため効果は限定的）
+6. **game_metadata.jsonのさらなる拡充**
+   - 現在1,004本、新作ゲームの随時追加
+   - ムードタグの精度向上
 
 ## 重要な設定情報
 
 ### 環境変数（Vercel）
 
-| Key | 説明 |
-|-----|------|
-| `STEAM_API_KEY` | Steam Web API Key（設定済み） |
-| `NEXT_PUBLIC_SITE_URL` | 本番URL（要確認） |
-| `NEXT_PUBLIC_GA_ID` | Google Analytics測定ID（要設定） |
+| Key | 値/状態 |
+|-----|---------|
+| `STEAM_API_KEY` | 設定済み |
+| `NEXT_PUBLIC_SITE_URL` | 設定済み |
+| `NEXT_PUBLIC_GA_ID` | コード内でハードコード（G-KJYPSK557X） |
 
 ### SNSアカウント
 
@@ -78,7 +89,12 @@
 
 - GitHub: https://github.com/Tshioya-sudo/steam-game-picker
 
+### 本番サイト
+
+- Vercel: （デプロイ済み、URLはVercelダッシュボードで確認）
+
 ## 備考
 
 - Vercelへのデプロイは `git push origin main` で自動実行される
-- 環境変数を変更した場合は、Vercelダッシュボードから再デプロイが必要
+- game_metadata.jsonは1,004本のゲームを収録（気分フィルター用）
+- Google Analyticsはsrc/components/GoogleAnalytics.tsxで直接測定IDを設定
