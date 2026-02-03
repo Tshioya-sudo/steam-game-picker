@@ -2,59 +2,66 @@
 
 import { trackAdClick } from '@/lib/analytics';
 
+const AMAZON_STORE_ID = 'syokakku789-22';
+
 interface AdBannerProps {
   position: 'top' | 'middle' | 'bottom';
   className?: string;
 }
 
-// 仮の広告データ（実際にはAmazonアフィリエイトなど）
+// Amazonアフィリエイト広告データ
 const AD_DATA = {
   top: {
-    type: 'gaming-gear',
-    title: 'ゲーミングギアをチェック',
-    description: 'より快適なゲーム体験のために',
-    link: '#', // 実際にはアフィリエイトリンク
-    image: null,
+    type: 'gaming-headset',
+    title: 'ゲーミングヘッドセット',
+    description: 'ボイスチャットも高音質で快適に',
+    asin: 'B09KNYCL3V', // Logicool G435
+    emoji: '🎧',
+    price: '¥6,500〜',
   },
   middle: {
-    type: 'steam-cards',
-    title: 'Steamギフトカード',
-    description: '新しいゲームを手に入れよう',
-    link: '#',
-    image: null,
+    type: 'xbox-controller',
+    title: 'Xbox ワイヤレスコントローラー',
+    description: 'PCゲームの定番コントローラー',
+    asin: 'B09VV5LJS1', // Xbox Controller
+    emoji: '🎮',
+    price: '¥6,000〜',
   },
   bottom: {
-    type: 'gaming-chair',
-    title: '長時間プレイも快適に',
-    description: 'ゲーミングチェア特集',
-    link: '#',
-    image: null,
+    type: 'gaming-mousepad',
+    title: '大型ゲーミングマウスパッド',
+    description: 'デスク全体をカバーする大判サイズ',
+    asin: 'B0788LMLZL', // SteelSeries QcK
+    emoji: '🖱️',
+    price: '¥1,500〜',
   },
 };
 
+function getAmazonUrl(asin: string): string {
+  return `https://www.amazon.co.jp/dp/${asin}?tag=${AMAZON_STORE_ID}`;
+}
+
 export function AdBanner({ position, className = '' }: AdBannerProps) {
   const ad = AD_DATA[position];
+  const amazonUrl = getAmazonUrl(ad.asin);
 
   const handleClick = () => {
     trackAdClick(ad.type);
-    // 実際にはアフィリエイトリンクを開く
-    // window.open(ad.link, '_blank');
+    window.open(amazonUrl, '_blank', 'noopener,noreferrer');
   };
 
   return (
     <div
       className={`
         card-steam p-3 cursor-pointer transition-all hover:scale-[1.01]
-        border-dashed border-steam-blue/30
+        hover:border-steam-blue/50
         ${className}
       `}
       onClick={handleClick}
     >
       <div className="flex items-center gap-3">
         <div className="w-12 h-12 bg-steam-blue/20 rounded-lg flex items-center justify-center text-2xl">
-          {position === 'top' && '🎧'}
-          {position === 'middle' && '💳'}
-          {position === 'bottom' && '🪑'}
+          {ad.emoji}
         </div>
         <div className="flex-1 min-w-0">
           <p className="text-sm font-medium text-steam-text-light truncate">
@@ -64,9 +71,10 @@ export function AdBanner({ position, className = '' }: AdBannerProps) {
             {ad.description}
           </p>
         </div>
-        <span className="text-xs text-steam-text/40 px-1.5 py-0.5 border border-steam-text/20 rounded">
-          AD
-        </span>
+        <div className="text-right shrink-0">
+          <p className="text-xs text-steam-blue font-medium">{ad.price}</p>
+          <p className="text-xs text-steam-text/40">Amazon</p>
+        </div>
       </div>
     </div>
   );
@@ -78,9 +86,36 @@ interface MatchingAdProps {
   className?: string;
 }
 
-export function MatchingAd({ gameGenre, className = '' }: MatchingAdProps) {
+// おすすめ商品（ランダム表示）
+const MATCHING_PRODUCTS = [
+  {
+    title: 'PS5 DualSense コントローラー',
+    description: '次世代の触覚フィードバック',
+    asin: 'B08H99BPJN',
+    price: '¥7,500〜',
+  },
+  {
+    title: 'ゲーミングイヤホン',
+    description: '低遅延でFPSに最適',
+    asin: 'B09TKLQ3NR',
+    price: '¥3,000〜',
+  },
+  {
+    title: 'モニターライト',
+    description: '目の疲れを軽減',
+    asin: 'B08W2C5W59',
+    price: '¥4,000〜',
+  },
+];
+
+export function MatchingAd({ className = '' }: MatchingAdProps) {
+  // ランダムに商品を選択（クライアントサイドで固定）
+  const product = MATCHING_PRODUCTS[Math.floor(Date.now() / 60000) % MATCHING_PRODUCTS.length];
+  const amazonUrl = getAmazonUrl(product.asin);
+
   const handleClick = () => {
     trackAdClick('matching');
+    window.open(amazonUrl, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -88,18 +123,25 @@ export function MatchingAd({ gameGenre, className = '' }: MatchingAdProps) {
       className={`
         card-steam p-4 cursor-pointer transition-all hover:scale-[1.01]
         bg-gradient-to-r from-steam-dark to-steam-darker
+        hover:border-steam-blue/50
         ${className}
       `}
       onClick={handleClick}
     >
-      <p className="text-xs text-steam-text/60 mb-2">おすすめ</p>
-      <p className="text-sm text-steam-text-light">
-        {gameGenre
-          ? `${gameGenre}が好きなあなたにおすすめのゲーミングギア`
-          : 'ゲーマーにおすすめのアイテム'}
-      </p>
-      <div className="mt-2 text-xs text-steam-blue">
-        チェックする →
+      <p className="text-xs text-steam-text/60 mb-2">ゲーマーにおすすめ</p>
+      <div className="flex items-center justify-between">
+        <div>
+          <p className="text-sm font-medium text-steam-text-light">
+            {product.title}
+          </p>
+          <p className="text-xs text-steam-text/60 mt-0.5">
+            {product.description}
+          </p>
+        </div>
+        <div className="text-right">
+          <p className="text-sm text-steam-blue font-medium">{product.price}</p>
+          <p className="text-xs text-steam-text/40">Amazon →</p>
+        </div>
       </div>
     </div>
   );

@@ -8,27 +8,40 @@ interface Product {
   name: string;
   asin: string;
   description: string;
-  imageUrl: string;
+  price: string;
 }
 
+// 売れ筋・手頃な価格の商品を優先
 const RECOMMENDED_PRODUCTS: Product[] = [
   {
-    name: 'Xbox ワイヤレス コントローラー',
-    asin: 'B09VV5LJS1',
-    description: 'PCゲームに最適な定番コントローラー',
-    imageUrl: 'https://m.media-amazon.com/images/I/71iSzzHV5xL._AC_SX425_.jpg',
+    name: 'エナジードリンク モンスター 24本',
+    asin: 'B00HC7V3TW',
+    description: '長時間ゲームのお供に',
+    price: '¥4,200',
   },
   {
-    name: 'Logicool G ゲーミングヘッドセット G435',
-    asin: 'B09KNYCL3V',
-    description: '軽量・ワイヤレスで長時間プレイに最適',
-    imageUrl: 'https://m.media-amazon.com/images/I/71U-7pPCs4L._AC_SX425_.jpg',
+    name: 'SteelSeries マウスパッド QcK',
+    asin: 'B0788LMLZL',
+    description: 'プロも使う定番マウスパッド',
+    price: '¥1,500',
   },
   {
-    name: 'Razer DeathAdder V3',
-    asin: 'B0BF5QP3V9',
-    description: '高精度ゲーミングマウス',
-    imageUrl: 'https://m.media-amazon.com/images/I/61L9eGJRPiL._AC_SX425_.jpg',
+    name: 'ゲーミングイヤホン 低遅延',
+    asin: 'B09TKLQ3NR',
+    description: '足音もクリアに聞こえる',
+    price: '¥3,000',
+  },
+  {
+    name: 'USBハブ 4ポート',
+    asin: 'B07L32B9C2',
+    description: 'コントローラー・周辺機器の接続に',
+    price: '¥1,000',
+  },
+  {
+    name: 'モニター掛け式ライト',
+    asin: 'B08W2C5W59',
+    description: '目の疲れを軽減、夜ゲームに必須',
+    price: '¥4,000',
   },
 ];
 
@@ -40,22 +53,17 @@ export function AmazonProducts() {
   return (
     <Card className="p-4 space-y-3">
       <h3 className="font-semibold text-steam-text-light text-sm">
-        おすすめゲーミングアイテム
+        ゲーマー向けおすすめアイテム
       </h3>
-      <div className="space-y-2">
+      <div className="space-y-1">
         {RECOMMENDED_PRODUCTS.map((product) => (
           <a
             key={product.asin}
             href={getAmazonUrl(product.asin)}
             target="_blank"
             rel="noopener noreferrer sponsored"
-            className="flex items-center gap-3 p-2 rounded-lg hover:bg-steam-dark/50 transition-colors"
+            className="flex items-center gap-3 p-2 rounded-lg hover:bg-steam-blue/10 transition-colors"
           >
-            <img
-              src={product.imageUrl}
-              alt={product.name}
-              className="w-12 h-12 object-contain bg-white rounded"
-            />
             <div className="flex-1 min-w-0">
               <p className="text-sm font-medium text-steam-text-light truncate">
                 {product.name}
@@ -64,12 +72,15 @@ export function AmazonProducts() {
                 {product.description}
               </p>
             </div>
-            <span className="text-xs text-steam-blue shrink-0">Amazon →</span>
+            <div className="text-right shrink-0">
+              <p className="text-sm text-steam-blue font-medium">{product.price}</p>
+              <p className="text-xs text-steam-text/40">Amazon</p>
+            </div>
           </a>
         ))}
       </div>
       <p className="text-xs text-steam-text/40 text-center">
-        ※ Amazonアソシエイト広告
+        ※ 上記はAmazonアソシエイト広告です
       </p>
     </Card>
   );
