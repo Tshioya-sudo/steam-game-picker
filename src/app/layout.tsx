@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Steam積みゲー消化 | 今日やるゲームを決めよう",
   description: "Steamの積みゲーから今日プレイするゲームをランダムに選出。未プレイのゲームを消化しよう！",
   keywords: ["Steam", "積みゲー", "ゲーム", "ランダム", "バックログ"],
+  verification: {
+    google: "W6HfIdmCjyklc7nV_A0AQDyRvfZb7vyGULJNHMFz_GQ",
+  },
   openGraph: {
     title: "Steam積みゲー消化",
     description: "あなたの積みゲーから今日の1本を選ぼう",
