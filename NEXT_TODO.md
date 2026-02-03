@@ -1,20 +1,33 @@
 # 次回作業メモ
 
-最終更新: 2025年1月27日
+最終更新: 2025年2月4日
 
-## 本日（1/27）完了した作業
+## 本日（2/4）完了した作業
 
-- [x] game_metadata.jsonの大幅拡充（428本 → **1,004本**）
-- [x] 「気分で選ぶ」に注意書き追加
-- [x] GitHubへプッシュ・Vercel自動デプロイ完了
-- [x] セキュリティ・負荷分析
+- [x] Google Search Console登録・所有権確認完了
+- [x] sitemap.xml / robots.txt 作成・デプロイ
+- [x] サイトマップをSearch Consoleに送信
+- [x] Amazonアフィリエイト広告をサイトに実装
+  - AdBanner（上部・中間・下部）
+  - MatchingAd（ランダム商品表示）
+  - AmazonProducts（商品リスト）
+- [x] 商品画像追加・ASIN修正
+
+## 次回確認事項（重要）
+
+### Vercelデプロイ確認
+- Vercelが復旧したら最新デプロイを確認
+- 商品画像が表示されているか確認
+- Amazonリンクが正常に動作するか確認
+- 必要に応じてVercelダッシュボードから手動リデプロイ
 
 ## 現在のステータス
 
 | 項目 | 状態 |
 |------|------|
-| **Amazonアソシエイト** | **審査通過** |
+| **Amazonアソシエイト** | **審査通過・実装済み** |
 | Google Analytics | 動作確認済み（G-KJYPSK557X） |
+| Google Search Console | 登録完了・サイトマップ送信済み |
 | ゲームメタデータ | 1,004本収録 |
 | 基本機能 | 完成 |
 
@@ -24,52 +37,59 @@
 Store ID: syokakku789-22
 ```
 
-リンク形式例：
-```
-https://www.amazon.co.jp/dp/商品ID?tag=syokakku789-22
-```
+### 設置済み商品
+
+**AdBanner（広告バナー）**
+| 位置 | 商品 | ASIN |
+|------|------|------|
+| 上部 | Logicool G331 ヘッドセット | B07PHLLMDN |
+| 中間 | Xbox ワイヤレスコントローラー | B08DF248LD |
+| 下部 | Logicool G240 マウスパッド | B01B1JGDQ6 |
+
+**AmazonProducts（商品リスト）**
+| 商品 | ASIN |
+|------|------|
+| Logicool G304 マウス | B07BF2Y43G |
+| エレコム マウスパッド | B09MJDHK4N |
+| Anker USBハブ | B00O0KISQE |
+| MOFT PCスタンド | B07YDPBY6D |
+| エレコム クリーニングクロス | B001TM6YNU |
 
 ## 次回やるべき作業
 
 ### 優先度高
 
-1. **Google Search Console登録**
-   - https://search.google.com/search-console
-   - サイトの所有権確認
-   - インデックス登録リクエスト
+1. **Vercelデプロイ確認**
+   - 商品画像・リンクの動作確認
+   - 必要に応じて手動リデプロイ
 
-2. **サイトマップ・robots.txt作成**
-   - SEO対策として必要
-   - Next.jsで自動生成可能
-
-3. **Amazonリンクの設置**
-   - ゲーミングデバイス紹介ページ作成
-   - または結果ページにおすすめ商品リンク追加
-   - Store ID: `syokakku789-22`
+2. **商品のASIN確認**
+   - 全リンクがAmazonで有効か確認
+   - リンク切れがあれば差し替え
 
 ### 優先度中（機能追加）
 
-4. **ゲームメタデータの継続追加**
+3. **ゲームメタデータの継続追加**
    - 現在1,004本 → 目標2,000本以上
 
-5. **抽選履歴機能**
+4. **抽選履歴機能**
    - 過去に選ばれたゲームを表示
    - LocalStorageで保存
 
-6. **お気に入り/除外リスト**
+5. **お気に入り/除外リスト**
    - 気になるゲームを保存
    - 抽選から外すゲームを設定
 
-7. **ジャンルフィルター**
+6. **ジャンルフィルター**
    - RPG、FPS、アクションなどで絞り込み
 
 ### 優先度低
 
-8. **カスタムドメイン取得**（任意）
+7. **カスタムドメイン取得**（任意）
    - 年間約1,000〜2,000円
    - Vercel無料プランでも設定可能
 
-9. **PWA化**
+8. **PWA化**
    - オフライン対応
 
 ## 将来の展望
@@ -87,6 +107,7 @@ https://www.amazon.co.jp/dp/商品ID?tag=syokakku789-22
 |-----|-----|
 | `STEAM_API_KEY` | 設定済み（Vercel） |
 | Google Analytics | G-KJYPSK557X |
+| Google Search Console | 登録済み（W6HfIdmCjyklc7nV_A0AQDyRvfZb7vyGULJNHMFz_GQ） |
 | **Amazon Store ID** | **syokakku789-22** |
 
 ### SNSアカウント
@@ -96,6 +117,7 @@ https://www.amazon.co.jp/dp/商品ID?tag=syokakku789-22
 ### リポジトリ
 
 - GitHub: https://github.com/Tshioya-sudo/steam-game-picker
+- 本番URL: https://steam-game-picker.vercel.app/
 
 ## セキュリティメモ
 
@@ -108,3 +130,4 @@ https://www.amazon.co.jp/dp/商品ID?tag=syokakku789-22
 - Vercelへのデプロイは `git push origin main` で自動実行
 - game_metadata.jsonは `public/data/` に配置（1,004本収録）
 - 気分フィルターのムード: relax / thrill / think / story / party
+- Vercelツールバーは所有者のみ表示（一般ユーザーには非表示）
