@@ -18,6 +18,9 @@ const config: Config = {
           text: '#c7d5e0',
           'text-light': '#ffffff',
         },
+        amazon: {
+          orange: '#FF9900',
+        },
       },
       fontFamily: {
         sans: ['Helvetica Neue', 'Arial', 'sans-serif'],

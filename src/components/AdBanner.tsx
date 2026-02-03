@@ -9,31 +9,31 @@ interface AdBannerProps {
   className?: string;
 }
 
-// Amazonアフィリエイト広告データ
+// Amazonアフィリエイト広告データ（検証済みASIN）
 const AD_DATA = {
   top: {
     type: 'gaming-headset',
-    title: 'ゲーミングヘッドセット',
-    description: 'ボイスチャットも高音質で快適に',
-    asin: 'B09KNYCL3V', // Logicool G435
-    emoji: '🎧',
-    price: '¥6,500〜',
+    title: 'Logicool G331 ゲーミングヘッドセット',
+    description: '2.1chサラウンド・軽量設計で長時間プレイに最適',
+    asin: 'B07PHLLMDN',
+    image: 'https://m.media-amazon.com/images/I/71OrUUQqvhL._AC_SX75_.jpg',
+    price: '¥5,940',
   },
   middle: {
     type: 'xbox-controller',
     title: 'Xbox ワイヤレスコントローラー',
-    description: 'PCゲームの定番コントローラー',
-    asin: 'B09VV5LJS1', // Xbox Controller
-    emoji: '🎮',
-    price: '¥6,000〜',
+    description: 'PCゲームの定番・Steam完全対応',
+    asin: 'B08DF248LD',
+    image: 'https://m.media-amazon.com/images/I/71iSzzHV5xL._AC_SX75_.jpg',
+    price: '¥6,545',
   },
   bottom: {
     type: 'gaming-mousepad',
-    title: '大型ゲーミングマウスパッド',
-    description: 'デスク全体をカバーする大判サイズ',
-    asin: 'B0788LMLZL', // SteelSeries QcK
-    emoji: '🖱️',
-    price: '¥1,500〜',
+    title: 'Logicool G240 マウスパッド',
+    description: 'プロ仕様の滑らかな操作感',
+    asin: 'B01B1JGDQ6',
+    image: 'https://m.media-amazon.com/images/I/61cTUrOV-OL._AC_SX75_.jpg',
+    price: '¥1,760',
   },
 };
 
@@ -60,9 +60,11 @@ export function AdBanner({ position, className = '' }: AdBannerProps) {
       onClick={handleClick}
     >
       <div className="flex items-center gap-3">
-        <div className="w-12 h-12 bg-steam-blue/20 rounded-lg flex items-center justify-center text-2xl">
-          {ad.emoji}
-        </div>
+        <img
+          src={ad.image}
+          alt={ad.title}
+          className="w-14 h-14 object-contain bg-white rounded-lg p-1"
+        />
         <div className="flex-1 min-w-0">
           <p className="text-sm font-medium text-steam-text-light truncate">
             {ad.title}
@@ -72,8 +74,8 @@ export function AdBanner({ position, className = '' }: AdBannerProps) {
           </p>
         </div>
         <div className="text-right shrink-0">
-          <p className="text-xs text-steam-blue font-medium">{ad.price}</p>
-          <p className="text-xs text-steam-text/40">Amazon</p>
+          <p className="text-sm text-steam-blue font-bold">{ad.price}</p>
+          <p className="text-xs text-amazon-orange">Amazon →</p>
         </div>
       </div>
     </div>
@@ -86,25 +88,28 @@ interface MatchingAdProps {
   className?: string;
 }
 
-// おすすめ商品（ランダム表示）
+// おすすめ商品（ランダム表示・検証済みASIN）
 const MATCHING_PRODUCTS = [
   {
-    title: 'PS5 DualSense コントローラー',
-    description: '次世代の触覚フィードバック',
+    title: 'DualSense ワイヤレスコントローラー',
+    description: 'PS5/PC対応・触覚フィードバック搭載',
     asin: 'B08H99BPJN',
-    price: '¥7,500〜',
+    image: 'https://m.media-amazon.com/images/I/61lXDhwuypL._AC_SX75_.jpg',
+    price: '¥9,480',
   },
   {
-    title: 'ゲーミングイヤホン',
-    description: '低遅延でFPSに最適',
-    asin: 'B09TKLQ3NR',
-    price: '¥3,000〜',
+    title: 'Anker Soundcore ゲーミングイヤホン',
+    description: '低遅延モード搭載・FPSに最適',
+    asin: 'B09TVLHK1Y',
+    image: 'https://m.media-amazon.com/images/I/61CAqiHD3GL._AC_SX75_.jpg',
+    price: '¥6,990',
   },
   {
-    title: 'モニターライト',
-    description: '目の疲れを軽減',
-    asin: 'B08W2C5W59',
-    price: '¥4,000〜',
+    title: 'BenQ ScreenBar モニターライト',
+    description: '目の疲れを軽減・デスク照明の定番',
+    asin: 'B076VNFZJG',
+    image: 'https://m.media-amazon.com/images/I/61lCxA2gB6L._AC_SX75_.jpg',
+    price: '¥12,900',
   },
 ];
 
@@ -129,18 +134,23 @@ export function MatchingAd({ className = '' }: MatchingAdProps) {
       onClick={handleClick}
     >
       <p className="text-xs text-steam-text/60 mb-2">ゲーマーにおすすめ</p>
-      <div className="flex items-center justify-between">
-        <div>
-          <p className="text-sm font-medium text-steam-text-light">
+      <div className="flex items-center gap-3">
+        <img
+          src={product.image}
+          alt={product.title}
+          className="w-14 h-14 object-contain bg-white rounded-lg p-1"
+        />
+        <div className="flex-1 min-w-0">
+          <p className="text-sm font-medium text-steam-text-light truncate">
             {product.title}
           </p>
           <p className="text-xs text-steam-text/60 mt-0.5">
             {product.description}
           </p>
         </div>
-        <div className="text-right">
-          <p className="text-sm text-steam-blue font-medium">{product.price}</p>
-          <p className="text-xs text-steam-text/40">Amazon →</p>
+        <div className="text-right shrink-0">
+          <p className="text-sm text-steam-blue font-bold">{product.price}</p>
+          <p className="text-xs text-amazon-orange">Amazon →</p>
         </div>
       </div>
     </div>
