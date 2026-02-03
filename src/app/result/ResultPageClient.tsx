@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import Link from 'next/link';
 import { Button, Card } from '@/components/ui';
 import { AdBanner, MatchingAd } from '@/components/AdBanner';
+import { AmazonProducts } from '@/components/AmazonProducts';
 import { PickMode, MoodCategory, PICK_MODE_OPTIONS, MOOD_OPTIONS } from '@/types';
 import { getGameHeaderUrl, getSteamStoreUrl } from '@/lib/steam';
 import { trackPageView } from '@/lib/analytics';
@@ -111,6 +112,9 @@ export function ResultPageClient({ searchParams }: ResultPageClientProps) {
           </Button>
         </Link>
       </Card>
+
+      {/* Amazonおすすめ商品 */}
+      <AmazonProducts />
 
       {/* 広告（下部） */}
       <AdBanner position="bottom" />
