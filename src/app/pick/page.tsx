@@ -86,6 +86,15 @@ function PickPageContent() {
         cacheGames(steamId, data.games);
         setGames(data.games);
         setLoading(false);
+
+        // 統計データを送信（バックグラウンドで実行、エラーは無視）
+        fetch('/api/stats/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ games: data.games }),
+        }).catch(() => {
+          // 統計送信エラーは無視
+        });
       } catch {
         setError('ネットワークエラーが発生しました');
         setLoading(false);

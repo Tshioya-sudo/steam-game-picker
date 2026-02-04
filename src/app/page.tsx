@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { SteamIdInput } from '@/components/SteamIdInput';
 import { AdBanner } from '@/components/AdBanner';
 import { Card, Loading } from '@/components/ui';
@@ -141,6 +142,23 @@ export default function HomePage() {
           </li>
         </ol>
       </Card>
+
+      {/* 統計ページへのリンク */}
+      <Link href="/stats" className="block">
+        <Card className="p-4 hover:border-steam-blue/30 transition-colors cursor-pointer">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="text-sm font-medium text-steam-text-light">
+                積みゲー率ランキング
+              </h3>
+              <p className="text-xs text-steam-text/60 mt-1">
+                ユーザーデータから集計した統計を見る
+              </p>
+            </div>
+            <span className="text-steam-blue text-xl">→</span>
+          </div>
+        </Card>
+      </Link>
 
       {/* 広告（下部） */}
       <AdBanner position="bottom" />
