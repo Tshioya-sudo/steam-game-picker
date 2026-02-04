@@ -1,10 +1,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
-import { Card, Button, Loading } from '@/components/ui';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { Card, Button, Loading, Input } from '@/components/ui';
 import { getGameHeaderUrl } from '@/lib/steam';
 import { BacklogRanking } from '@/lib/supabase';
+import { Suspense } from 'react';
 
 interface StatsData {
   rankings: BacklogRanking[];
@@ -14,13 +15,36 @@ interface StatsData {
   };
 }
 
-export default function StatsPage() {
+// 管理者パスワード（環境変数から取得、なければデフォルト）
+const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_STATS_PASSWORD || 'admin2024';
+
+function StatsPageContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const [data, setData] = useState<StatsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [password, setPassword] = useState('');
+  const [authError, setAuthError] = useState(false);
 
+  // URLパラメータまたはセッションストレージから認証チェック
   useEffect(() => {
+    const urlPassword = searchParams.get('key');
+    const sessionAuth = sessionStorage.getItem('stats_auth');
+
+    if (urlPassword === ADMIN_PASSWORD || sessionAuth === 'true') {
+      setIsAuthenticated(true);
+      sessionStorage.setItem('stats_auth', 'true');
+    } else {
+      setLoading(false);
+    }
+  }, [searchParams]);
+
+  // 認証後にデータを取得
+  useEffect(() => {
+    if (!isAuthenticated) return;
+
     const fetchStats = async () => {
       try {
         const response = await fetch('/api/stats?limit=50');
@@ -37,7 +61,54 @@ export default function StatsPage() {
     };
 
     fetchStats();
-  }, []);
+  }, [isAuthenticated]);
+
+  // パスワード認証
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (password === ADMIN_PASSWORD) {
+      setIsAuthenticated(true);
+      sessionStorage.setItem('stats_auth', 'true');
+      setAuthError(false);
+      setLoading(true);
+    } else {
+      setAuthError(true);
+    }
+  };
+
+  // 未認証時のログイン画面
+  if (!isAuthenticated) {
+    return (
+      <div className="container-mobile py-12">
+        <Card className="p-6 max-w-sm mx-auto">
+          <h1 className="text-xl font-bold text-steam-text-light mb-4 text-center">
+            管理者ログイン
+          </h1>
+          <form onSubmit={handleLogin} className="space-y-4">
+            <Input
+              type="password"
+              placeholder="パスワードを入力"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            {authError && (
+              <p className="text-red-400 text-sm">パスワードが違います</p>
+            )}
+            <Button type="submit" variant="primary" className="w-full">
+              ログイン
+            </Button>
+          </form>
+          <Button
+            variant="ghost"
+            className="w-full mt-4"
+            onClick={() => router.push('/')}
+          >
+            トップに戻る
+          </Button>
+        </Card>
+      </div>
+    );
+  }
 
   if (loading) {
     return (
@@ -68,7 +139,7 @@ export default function StatsPage() {
           積みゲー率ランキング
         </h1>
         <p className="text-steam-text/70 text-sm">
-          このサイトを利用したユーザーのデータを集計
+          管理者専用データ
         </p>
       </div>
 
@@ -177,9 +248,21 @@ export default function StatsPage() {
           ルーレットを回す
         </Button>
         <p className="text-xs text-steam-text/40">
-          ※ データはこのサイトを利用したユーザーから匿名で収集しています
+          ※ このデータは管理者専用です
         </p>
       </div>
     </div>
+  );
+}
+
+export default function StatsPage() {
+  return (
+    <Suspense fallback={
+      <div className="container-mobile py-12">
+        <Loading size="lg" text="読み込み中..." />
+      </div>
+    }>
+      <StatsPageContent />
+    </Suspense>
   );
 }
