@@ -24,12 +24,14 @@ const RECOMMENDED_PRODUCTS: Product[] = [
     url: 'https://amzn.to/4rucb8r',
     description: 'プロ仕様・ノンスリップ',
     price: '¥1,000〜',
+    image: 'https://m.media-amazon.com/images/I/617xz5fKBcL._AC_SL1500_.jpg',
   },
   {
     name: '森永製菓 超大粒ラムネ 60g×6袋',
     url: 'https://amzn.to/4kjs1jN',
     description: 'ブドウ糖90%・集中力維持',
     price: '¥1,000〜',
+    image: 'https://m.media-amazon.com/images/I/71J-VgL7JtL._AC_SL1500_.jpg',
   },
   {
     name: 'エレコム エアダスター 350ml×3本',
@@ -50,12 +52,14 @@ const RECOMMENDED_PRODUCTS: Product[] = [
     url: 'https://amzn.to/49YLzGQ',
     description: 'マウスケーブル固定',
     price: '¥1,500〜',
+    image: 'https://m.media-amazon.com/images/I/618hPVlV5NL._AC_SL1500_.jpg',
   },
   {
     name: 'ジェルクリーナー 80g×3袋',
     url: 'https://amzn.to/4qhPbsf',
     description: 'キーボードのホコリ取り',
     price: '¥1,000〜',
+    image: 'https://m.media-amazon.com/images/I/71jbJdk9r6L._AC_SL1500_.jpg',
   },
 ];
 

@@ -22,7 +22,7 @@ const AD_DATA = {
     title: 'SteelSeries QcK mini マウスパッド',
     description: 'プロ仕様・ノンスリップラバーベース',
     url: 'https://amzn.to/4rucb8r',
-    image: '',
+    image: 'https://m.media-amazon.com/images/I/617xz5fKBcL._AC_SL1500_.jpg',
     price: '¥1,000〜',
   },
   bottom: {
@@ -30,7 +30,7 @@ const AD_DATA = {
     title: '森永製菓 超大粒ラムネ 60g×6袋',
     description: 'ブドウ糖90%・集中力維持に',
     url: 'https://amzn.to/4kjs1jN',
-    image: '',
+    image: 'https://m.media-amazon.com/images/I/71J-VgL7JtL._AC_SL1500_.jpg',
     price: '¥1,000〜',
   },
 };
@@ -89,7 +89,7 @@ const MATCHING_PRODUCTS = [
     title: 'Pulsar マイクロバンジーES',
     description: 'マウスケーブル固定・コンパクト設計',
     url: 'https://amzn.to/49YLzGQ',
-    image: '',
+    image: 'https://m.media-amazon.com/images/I/618hPVlV5NL._AC_SL1500_.jpg',
     price: '¥1,500〜',
   },
   {
@@ -103,7 +103,7 @@ const MATCHING_PRODUCTS = [
     title: 'ジェルクリーナー キーボード掃除用 80g×3袋',
     description: 'スライム状でホコリを吸着',
     url: 'https://amzn.to/4qhPbsf',
-    image: '',
+    image: 'https://m.media-amazon.com/images/I/71jbJdk9r6L._AC_SL1500_.jpg',
     price: '¥1,000〜',
   },
 ];
