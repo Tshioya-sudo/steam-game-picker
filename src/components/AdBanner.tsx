@@ -14,6 +14,7 @@ const AD_DATA = {
     title: 'レッドブル エナジードリンク 250ml×24本',
     description: 'ゲーマーの定番エナドリ・集中力アップ',
     url: 'https://amzn.to/3MoKmPU',
+    image: 'https://m.media-amazon.com/images/I/515RB5k2dYL._AC_SX679_PIbundle-24,TopRight,0,0_SH20_.jpg',
     price: '¥4,000〜',
   },
   middle: {
@@ -21,6 +22,7 @@ const AD_DATA = {
     title: 'SteelSeries QcK mini マウスパッド',
     description: 'プロ仕様・ノンスリップラバーベース',
     url: 'https://amzn.to/4rucb8r',
+    image: '',
     price: '¥1,000〜',
   },
   bottom: {
@@ -28,6 +30,7 @@ const AD_DATA = {
     title: '森永製菓 超大粒ラムネ 60g×6袋',
     description: 'ブドウ糖90%・集中力維持に',
     url: 'https://amzn.to/4kjs1jN',
+    image: '',
     price: '¥1,000〜',
   },
 };
@@ -50,6 +53,13 @@ export function AdBanner({ position, className = '' }: AdBannerProps) {
       onClick={handleClick}
     >
       <div className="flex items-center gap-3">
+        {ad.image && (
+          <img
+            src={ad.image}
+            alt={ad.title}
+            className="w-12 h-12 object-contain bg-white rounded-lg p-1 shrink-0"
+          />
+        )}
         <div className="flex-1 min-w-0">
           <p className="text-sm font-medium text-steam-text-light truncate">
             {ad.title}
@@ -79,18 +89,21 @@ const MATCHING_PRODUCTS = [
     title: 'Pulsar マイクロバンジーES',
     description: 'マウスケーブル固定・コンパクト設計',
     url: 'https://amzn.to/49YLzGQ',
+    image: '',
     price: '¥1,500〜',
   },
   {
     title: 'めぐりズム 蒸気でホットアイマスク 12枚×3',
     description: '目の疲れを癒す・長時間プレイ後に',
     url: 'https://amzn.to/3ZlgIhs',
+    image: 'https://m.media-amazon.com/images/I/71-SjFhnrdL._AC_SX466_PIbundle-3,TopRight,0,0_SH20_.jpg',
     price: '¥2,500〜',
   },
   {
     title: 'ジェルクリーナー キーボード掃除用 80g×3袋',
     description: 'スライム状でホコリを吸着',
     url: 'https://amzn.to/4qhPbsf',
+    image: '',
     price: '¥1,000〜',
   },
 ];
@@ -116,6 +129,13 @@ export function MatchingAd({ className = '' }: MatchingAdProps) {
     >
       <p className="text-xs text-steam-text/60 mb-2">ゲーマーにおすすめ</p>
       <div className="flex items-center gap-3">
+        {product.image && (
+          <img
+            src={product.image}
+            alt={product.title}
+            className="w-12 h-12 object-contain bg-white rounded-lg p-1 shrink-0"
+          />
+        )}
         <div className="flex-1 min-w-0">
           <p className="text-sm font-medium text-steam-text-light truncate">
             {product.title}

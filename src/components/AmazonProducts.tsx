@@ -7,6 +7,7 @@ interface Product {
   url: string;
   description: string;
   price: string;
+  image?: string;
 }
 
 // ゲーマー向けおすすめ商品
@@ -16,6 +17,7 @@ const RECOMMENDED_PRODUCTS: Product[] = [
     url: 'https://amzn.to/3MoKmPU',
     description: 'ゲーマーの定番エナドリ',
     price: '¥4,000〜',
+    image: 'https://m.media-amazon.com/images/I/515RB5k2dYL._AC_SX679_PIbundle-24,TopRight,0,0_SH20_.jpg',
   },
   {
     name: 'SteelSeries QcK mini マウスパッド',
@@ -34,12 +36,14 @@ const RECOMMENDED_PRODUCTS: Product[] = [
     url: 'https://amzn.to/4kACRSV',
     description: 'キーボード・PC内部の掃除に',
     price: '¥1,500〜',
+    image: 'https://m.media-amazon.com/images/I/71sbl6V+qbL._AC_SY300_SX300_QL70_ML2_.jpg',
   },
   {
     name: 'めぐりズム ホットアイマスク 12枚×3',
     url: 'https://amzn.to/3ZlgIhs',
     description: '目の疲れを癒す',
     price: '¥2,500〜',
+    image: 'https://m.media-amazon.com/images/I/71-SjFhnrdL._AC_SX466_PIbundle-3,TopRight,0,0_SH20_.jpg',
   },
   {
     name: 'Pulsar マイクロバンジーES',
@@ -70,6 +74,13 @@ export function AmazonProducts() {
             rel="noopener noreferrer sponsored"
             className="flex items-center gap-3 p-2 rounded-lg hover:bg-steam-blue/10 transition-colors border border-transparent hover:border-steam-blue/30"
           >
+            {product.image && (
+              <img
+                src={product.image}
+                alt={product.name}
+                className="w-10 h-10 object-contain bg-white rounded p-0.5 shrink-0"
+              />
+            )}
             <div className="flex-1 min-w-0">
               <p className="text-sm font-medium text-steam-text-light truncate">
                 {product.name}
