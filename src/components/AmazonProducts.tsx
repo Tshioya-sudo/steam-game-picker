@@ -2,58 +2,58 @@
 
 import { Card } from '@/components/ui';
 
-const AMAZON_STORE_ID = 'syokakku789-22';
-
 interface Product {
   name: string;
-  asin: string;
+  url: string;
   description: string;
   price: string;
-  image: string;
 }
 
-// 売れ筋・手頃な価格の商品を優先（検証済みASIN）
+// ゲーマー向けおすすめ商品
 const RECOMMENDED_PRODUCTS: Product[] = [
   {
-    name: 'Logicool G304 ゲーミングマウス',
-    asin: 'B07BF2Y43G',
-    description: 'ワイヤレス・軽量99g・プロ仕様',
-    price: '¥4,950',
-    image: 'https://m.media-amazon.com/images/I/61UxfXTUyvL._AC_SX75_.jpg',
+    name: 'レッドブル エナジードリンク 250ml×24本',
+    url: 'https://amzn.to/3MoKmPU',
+    description: 'ゲーマーの定番エナドリ',
+    price: '¥4,000〜',
   },
   {
-    name: 'エレコム ゲーミングマウスパッド',
-    asin: 'B09MJDHK4N',
-    description: '大型サイズ・滑り止め付き',
-    price: '¥1,480',
-    image: 'https://m.media-amazon.com/images/I/81aeQKT1-YL._AC_SX75_.jpg',
+    name: 'SteelSeries QcK mini マウスパッド',
+    url: 'https://amzn.to/4rucb8r',
+    description: 'プロ仕様・ノンスリップ',
+    price: '¥1,000〜',
   },
   {
-    name: 'Anker USB3.0 ハブ 4ポート',
-    asin: 'B00O0KISQE',
-    description: 'コントローラー接続に最適',
-    price: '¥1,590',
-    image: 'https://m.media-amazon.com/images/I/61LtuHfLJcL._AC_SX75_.jpg',
+    name: '森永製菓 超大粒ラムネ 60g×6袋',
+    url: 'https://amzn.to/4kjs1jN',
+    description: 'ブドウ糖90%・集中力維持',
+    price: '¥1,000〜',
   },
   {
-    name: 'MOFT ノートPCスタンド',
-    asin: 'B07YDPBY6D',
-    description: '姿勢改善・放熱効果で長時間プレイ対応',
-    price: '¥2,880',
-    image: 'https://m.media-amazon.com/images/I/61U5zTOFxpL._AC_SX75_.jpg',
+    name: 'エレコム エアダスター 350ml×3本',
+    url: 'https://amzn.to/4kACRSV',
+    description: 'キーボード・PC内部の掃除に',
+    price: '¥1,500〜',
   },
   {
-    name: 'エレコム クリーニングクロス',
-    asin: 'B001TM6YNU',
-    description: 'モニター・マウスのお手入れに',
-    price: '¥475',
-    image: 'https://m.media-amazon.com/images/I/71U8c8SvwGL._AC_SX75_.jpg',
+    name: 'めぐりズム ホットアイマスク 12枚×3',
+    url: 'https://amzn.to/3ZlgIhs',
+    description: '目の疲れを癒す',
+    price: '¥2,500〜',
+  },
+  {
+    name: 'Pulsar マイクロバンジーES',
+    url: 'https://amzn.to/49YLzGQ',
+    description: 'マウスケーブル固定',
+    price: '¥1,500〜',
+  },
+  {
+    name: 'ジェルクリーナー 80g×3袋',
+    url: 'https://amzn.to/4qhPbsf',
+    description: 'キーボードのホコリ取り',
+    price: '¥1,000〜',
   },
 ];
-
-function getAmazonUrl(asin: string): string {
-  return `https://www.amazon.co.jp/dp/${asin}?tag=${AMAZON_STORE_ID}`;
-}
 
 export function AmazonProducts() {
   return (
@@ -62,19 +62,14 @@ export function AmazonProducts() {
         ゲーマー向けおすすめアイテム
       </h3>
       <div className="space-y-2">
-        {RECOMMENDED_PRODUCTS.map((product) => (
+        {RECOMMENDED_PRODUCTS.map((product, index) => (
           <a
-            key={product.asin}
-            href={getAmazonUrl(product.asin)}
+            key={index}
+            href={product.url}
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="flex items-center gap-3 p-2 rounded-lg hover:bg-steam-blue/10 transition-colors border border-transparent hover:border-steam-blue/30"
           >
-            <img
-              src={product.image}
-              alt={product.name}
-              className="w-12 h-12 object-contain bg-white rounded p-0.5"
-            />
             <div className="flex-1 min-w-0">
               <p className="text-sm font-medium text-steam-text-light truncate">
                 {product.name}
