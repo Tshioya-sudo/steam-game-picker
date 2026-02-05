@@ -36,6 +36,22 @@ CREATE POLICY "Allow service insert" ON game_statistics FOR INSERT WITH CHECK (t
 CREATE POLICY "Allow service update" ON game_statistics FOR UPDATE USING (true);
 CREATE POLICY "Allow service insert sessions" ON stat_sessions FOR INSERT WITH CHECK (true);
 
+-- フィードバック収集テーブル
+CREATE TABLE feedback (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  category TEXT NOT NULL CHECK (category IN ('bug', 'opinion', 'request')),
+  message TEXT NOT NULL,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+ALTER TABLE feedback ENABLE ROW LEVEL SECURITY;
+
+-- 匿名で書き込み可
+CREATE POLICY "Allow anonymous insert feedback" ON feedback FOR INSERT WITH CHECK (true);
+
+-- 読み取りはservice_roleのみ
+CREATE POLICY "Allow service read feedback" ON feedback FOR SELECT USING (true);
+
 -- 積みゲー率計算用ビュー
 CREATE VIEW game_backlog_ranking AS
 SELECT

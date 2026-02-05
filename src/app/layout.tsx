@@ -78,6 +78,12 @@ export default function RootLayout({
                 >
                   Steam ID確認方法
                 </a>
+                <a
+                  href="/feedback"
+                  className="hover:text-steam-blue transition-colors"
+                >
+                  ご意見・ご要望
+                </a>
               </nav>
 
               {/* 法的リンク */}
