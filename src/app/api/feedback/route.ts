@@ -29,6 +29,13 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    if (message.length > 1000) {
+      return NextResponse.json(
+        { error: 'Message too long' },
+        { status: 400 }
+      );
+    }
+
     await supabaseAdmin
       .from('feedback')
       .insert({

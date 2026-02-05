@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { Card, Button, Loading, Input } from '@/components/ui';
 import { getGameHeaderUrl } from '@/lib/steam';
 import { BacklogRanking } from '@/lib/supabase';
@@ -15,12 +15,8 @@ interface StatsData {
   };
 }
 
-// 管理者パスワード（環境変数から取得、なければデフォルト）
-const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_STATS_PASSWORD || 'admin2024';
-
 function StatsPageContent() {
   const router = useRouter();
-  const searchParams = useSearchParams();
   const [data, setData] = useState<StatsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -28,18 +24,15 @@ function StatsPageContent() {
   const [password, setPassword] = useState('');
   const [authError, setAuthError] = useState(false);
 
-  // URLパラメータまたはセッションストレージから認証チェック
+  // セッションストレージから認証チェック
   useEffect(() => {
-    const urlPassword = searchParams.get('key');
     const sessionAuth = sessionStorage.getItem('stats_auth');
-
-    if (urlPassword === ADMIN_PASSWORD || sessionAuth === 'true') {
+    if (sessionAuth === 'true') {
       setIsAuthenticated(true);
-      sessionStorage.setItem('stats_auth', 'true');
     } else {
       setLoading(false);
     }
-  }, [searchParams]);
+  }, []);
 
   // 認証後にデータを取得
   useEffect(() => {
@@ -63,15 +56,24 @@ function StatsPageContent() {
     fetchStats();
   }, [isAuthenticated]);
 
-  // パスワード認証
-  const handleLogin = (e: React.FormEvent) => {
+  // パスワード認証（APIで検証）
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === ADMIN_PASSWORD) {
-      setIsAuthenticated(true);
-      sessionStorage.setItem('stats_auth', 'true');
-      setAuthError(false);
-      setLoading(true);
-    } else {
+    try {
+      const res = await fetch('/api/stats/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password }),
+      });
+      if (res.ok) {
+        sessionStorage.setItem('stats_auth', 'true');
+        setIsAuthenticated(true);
+        setAuthError(false);
+        setLoading(true);
+      } else {
+        setAuthError(true);
+      }
+    } catch {
       setAuthError(true);
     }
   };
