@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- 背景 -->
+  <rect width="64" height="64" rx="12" fill="#1b2838"/>
+  <!-- コントローラー本体 -->
+  <rect x="8" y="22" width="48" height="22" rx="11" fill="#c2d4e0"/>
+  <!-- 左グリップ -->
+  <ellipse cx="14" cy="40" rx="8" ry="10" fill="#c2d4e0"/>
+  <!-- 右グリップ -->
+  <ellipse cx="50" cy="40" rx="8" ry="10" fill="#c2d4e0"/>
+  <!-- D-PAD -->
+  <rect x="16" y="27" width="4" height="12" rx="1" fill="#1b2838"/>
+  <rect x="13" y="30" width="10" height="4" rx="1" fill="#1b2838"/>
+  <!-- ABXY ボタン -->
+  <circle cx="42" cy="28" r="2.2" fill="#67c1f5"/>
+  <circle cx="46" cy="32" r="2.2" fill="#67c1f5"/>
+  <circle cx="38" cy="32" r="2.2" fill="#67c1f5"/>
+  <circle cx="42" cy="36" r="2.2" fill="#67c1f5"/>
+  <!-- 中央 ◆ アイコン -->
+  <polygon points="32,25 34.5,30 32,35 29.5,30" fill="#67c1f5"/>
+</svg>
